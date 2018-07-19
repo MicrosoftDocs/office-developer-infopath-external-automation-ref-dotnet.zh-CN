@@ -1,0 +1,219 @@
+<Type Name="SignatureLine" FullName="Microsoft.Office.Interop.InfoPath.SemiTrust.SignatureLine">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="6d8a4a4ed1ea34f89bbb22fdf7723119b0583e86" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20568019" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface SignatureLine" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SignatureLine" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SemiTrust.SignatureLine" />
+  <TypeSignature Language="VB.NET" Value="Public Interface SignatureLine" />
+  <TypeSignature Language="C++ CLI" Value="public interface class SignatureLine" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("096cd768-0786-11d1-95fa-0080c78ee3bb")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(System.Runtime.InteropServices.ComInterfaceType.InterfaceIsDual)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.SignatureLine.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Id { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sign">
+      <MemberSignature Language="C#" Value="public bool Sign (string bstrImageURL, string bstrSuggestedSigner, string bstrSuggestedSignerTitle, string bstrSuggestedSignerEmailAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Sign(string bstrImageURL, string bstrSuggestedSigner, string bstrSuggestedSignerTitle, string bstrSuggestedSignerEmailAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.SignatureLine.Sign(System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Sign (bstrImageURL As String, bstrSuggestedSigner As String, bstrSuggestedSignerTitle As String, bstrSuggestedSignerEmailAddress As String) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Sign(System::String ^ bstrImageURL, System::String ^ bstrSuggestedSigner, System::String ^ bstrSuggestedSignerTitle, System::String ^ bstrSuggestedSignerEmailAddress);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrImageURL" Type="System.String" />
+        <Parameter Name="bstrSuggestedSigner" Type="System.String" />
+        <Parameter Name="bstrSuggestedSignerTitle" Type="System.String" />
+        <Parameter Name="bstrSuggestedSignerEmailAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrImageURL">To be added.</param>
+        <param name="bstrSuggestedSigner">To be added.</param>
+        <param name="bstrSuggestedSignerTitle">To be added.</param>
+        <param name="bstrSuggestedSignerEmailAddress">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Signature">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.SignatureObject Signature { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.SemiTrust.SignatureObject Signature" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.SignatureLine.Signature" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Signature As SignatureObject" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::InfoPath::SemiTrust::SignatureObject ^ Signature { Microsoft::Office::Interop::InfoPath::SemiTrust::SignatureObject ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.SignatureObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SignatureAppearanceType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.XdSignatureAppearanceType SignatureAppearanceType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.InfoPath.SemiTrust.XdSignatureAppearanceType SignatureAppearanceType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.SignatureLine.SignatureAppearanceType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SignatureAppearanceType As XdSignatureAppearanceType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::InfoPath::SemiTrust::XdSignatureAppearanceType SignatureAppearanceType { Microsoft::Office::Interop::InfoPath::SemiTrust::XdSignatureAppearanceType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.XdSignatureAppearanceType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuggestedSigner">
+      <MemberSignature Language="C#" Value="public string SuggestedSigner { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SuggestedSigner" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.SignatureLine.SuggestedSigner" />
+      <MemberSignature Language="VB.NET" Value="Public Property SuggestedSigner As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SuggestedSigner { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuggestedSignerEmailAddress">
+      <MemberSignature Language="C#" Value="public string SuggestedSignerEmailAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SuggestedSignerEmailAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.SignatureLine.SuggestedSignerEmailAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property SuggestedSignerEmailAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SuggestedSignerEmailAddress { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuggestedSignerTitle">
+      <MemberSignature Language="C#" Value="public string SuggestedSignerTitle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SuggestedSignerTitle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.SignatureLine.SuggestedSignerTitle" />
+      <MemberSignature Language="VB.NET" Value="Public Property SuggestedSignerTitle As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SuggestedSignerTitle { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

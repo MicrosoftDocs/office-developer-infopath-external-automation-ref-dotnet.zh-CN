@@ -1,0 +1,46 @@
+<Type Name="WrapperBase" FullName="Microsoft.Office.Interop.InfoPath.Helper.WrapperBase">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0730fa622452f014f44b1a771239f14e07df64f9" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20567858" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class WrapperBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit WrapperBase extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.Helper.WrapperBase" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class WrapperBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class WrapperBase abstract" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected WrapperBase ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.Helper.WrapperBase.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; WrapperBase();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

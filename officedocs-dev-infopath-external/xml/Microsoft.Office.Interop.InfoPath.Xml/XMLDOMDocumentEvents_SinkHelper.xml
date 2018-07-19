@@ -1,0 +1,144 @@
+<Type Name="XMLDOMDocumentEvents_SinkHelper" FullName="Microsoft.Office.Interop.InfoPath.Xml.XMLDOMDocumentEvents_SinkHelper">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="45ade4fdf5754f5ebc1b88c84c2ab0afcc2b4e85" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20568089" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class XMLDOMDocumentEvents_SinkHelper : Microsoft.Office.Interop.InfoPath.Xml.XMLDOMDocumentEvents" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XMLDOMDocumentEvents_SinkHelper extends System.Object implements class Microsoft.Office.Interop.InfoPath.Xml.XMLDOMDocumentEvents" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.Xml.XMLDOMDocumentEvents_SinkHelper" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class XMLDOMDocumentEvents_SinkHelper&#xA;Implements XMLDOMDocumentEvents" />
+  <TypeSignature Language="C++ CLI" Value="public ref class XMLDOMDocumentEvents_SinkHelper sealed : Microsoft::Office::Interop::InfoPath::Xml::XMLDOMDocumentEvents" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath.Xml</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.Xml.XMLDOMDocumentEvents</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(System.Runtime.InteropServices.TypeLibTypeFlags.FHidden)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="m_dwCookie">
+      <MemberSignature Language="C#" Value="public int m_dwCookie;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 m_dwCookie" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.Xml.XMLDOMDocumentEvents_SinkHelper.m_dwCookie" />
+      <MemberSignature Language="VB.NET" Value="Public m_dwCookie As Integer " />
+      <MemberSignature Language="C++ CLI" Value="public: int m_dwCookie;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.Xml</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_ondataavailableDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.Xml.XMLDOMDocumentEvents_ondataavailableEventHandler m_ondataavailableDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.InfoPath.Xml.XMLDOMDocumentEvents_ondataavailableEventHandler m_ondataavailableDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.Xml.XMLDOMDocumentEvents_SinkHelper.m_ondataavailableDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_ondataavailableDelegate As XMLDOMDocumentEvents_ondataavailableEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::InfoPath::Xml::XMLDOMDocumentEvents_ondataavailableEventHandler ^ m_ondataavailableDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.Xml</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.Xml.XMLDOMDocumentEvents_ondataavailableEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_onreadystatechangeDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.Xml.XMLDOMDocumentEvents_onreadystatechangeEventHandler m_onreadystatechangeDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.InfoPath.Xml.XMLDOMDocumentEvents_onreadystatechangeEventHandler m_onreadystatechangeDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.Xml.XMLDOMDocumentEvents_SinkHelper.m_onreadystatechangeDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_onreadystatechangeDelegate As XMLDOMDocumentEvents_onreadystatechangeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::InfoPath::Xml::XMLDOMDocumentEvents_onreadystatechangeEventHandler ^ m_onreadystatechangeDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.Xml</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.Xml.XMLDOMDocumentEvents_onreadystatechangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ondataavailable">
+      <MemberSignature Language="C#" Value="public override void ondataavailable ();" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void ondataavailable() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.Xml.XMLDOMDocumentEvents_SinkHelper.ondataavailable" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub ondataavailable ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void ondataavailable();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.Xml.XMLDOMDocumentEvents.ondataavailable</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.Xml</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="onreadystatechange">
+      <MemberSignature Language="C#" Value="public override void onreadystatechange ();" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void onreadystatechange() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.Xml.XMLDOMDocumentEvents_SinkHelper.onreadystatechange" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub onreadystatechange ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void onreadystatechange();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.Xml.XMLDOMDocumentEvents.onreadystatechange</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.Xml</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

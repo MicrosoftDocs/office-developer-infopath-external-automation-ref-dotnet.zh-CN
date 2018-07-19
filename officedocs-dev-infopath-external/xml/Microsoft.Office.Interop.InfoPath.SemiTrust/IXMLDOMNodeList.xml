@@ -1,0 +1,160 @@
+<Type Name="IXMLDOMNodeList" FullName="Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNodeList">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="1cfd034b171113651f904cec3a5a657178e8d9dc" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20570805" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface IXMLDOMNodeList" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IXMLDOMNodeList" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNodeList" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IXMLDOMNodeList" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IXMLDOMNodeList" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("2933BF82-7B36-11d2-B20E-00C04F983E60")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(System.Runtime.InteropServices.ComInterfaceType.InterfaceIsDual)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNodeList.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode this[int index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNodeList.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(index As Integer) As IXMLDOMNode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ default[int] { Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ get(int index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="length">
+      <MemberSignature Language="C#" Value="public int length { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 length" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNodeList.length" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property length As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int length { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(74)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="nextNode">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode nextNode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode nextNode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNodeList.nextNode" />
+      <MemberSignature Language="VB.NET" Value="Public Function nextNode () As IXMLDOMNode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ nextNode();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(76)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="reset">
+      <MemberSignature Language="C#" Value="public void reset ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void reset() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNodeList.reset" />
+      <MemberSignature Language="VB.NET" Value="Public Sub reset ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void reset();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(77)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

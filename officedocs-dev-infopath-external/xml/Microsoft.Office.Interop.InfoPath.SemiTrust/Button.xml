@@ -1,0 +1,37 @@
+<Type Name="Button" FullName="Microsoft.Office.Interop.InfoPath.SemiTrust.Button">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8b9bfc5a68123790c06f1ab71ffe088879d797c9" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20569615" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Button : Microsoft.Office.Interop.InfoPath.SemiTrust.ButtonEmpty" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Button implements class Microsoft.Office.Interop.InfoPath.SemiTrust.ButtonEmpty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SemiTrust.Button" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Button&#xA;Implements ButtonEmpty" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Button : Microsoft::Office::Interop::InfoPath::SemiTrust::ButtonEmpty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.SemiTrust.ButtonEmpty</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.InfoPath.SemiTrust.ButtonWrapper))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("096cd786-0786-11d1-95fa-0080c78ee3bb")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

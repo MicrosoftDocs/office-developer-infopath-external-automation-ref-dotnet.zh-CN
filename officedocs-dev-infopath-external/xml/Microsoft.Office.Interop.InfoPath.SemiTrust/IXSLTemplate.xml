@@ -1,0 +1,85 @@
+<Type Name="IXSLTemplate" FullName="Microsoft.Office.Interop.InfoPath.SemiTrust.IXSLTemplate">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="221535da208fb4b8fa00f4456649ce97ed2f2e20" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20569713" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface IXSLTemplate" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IXSLTemplate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SemiTrust.IXSLTemplate" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IXSLTemplate" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IXSLTemplate" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("2933BF93-7B36-11d2-B20E-00C04F983E60")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(System.Runtime.InteropServices.ComInterfaceType.InterfaceIsDual)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="createProcessor">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXSLProcessor createProcessor ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXSLProcessor createProcessor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXSLTemplate.createProcessor" />
+      <MemberSignature Language="VB.NET" Value="Public Function createProcessor () As IXSLProcessor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::InfoPath::SemiTrust::IXSLProcessor ^ createProcessor();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXSLProcessor</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="stylesheet">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode stylesheet { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode stylesheet" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXSLTemplate.stylesheet" />
+      <MemberSignature Language="VB.NET" Value="Public Property stylesheet As IXMLDOMNode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ stylesheet { Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ get(); void set(Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

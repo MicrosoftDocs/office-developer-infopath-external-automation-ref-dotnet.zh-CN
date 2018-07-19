@@ -1,0 +1,38 @@
+<Type Name="_DataDOMEventSink_OnBeforeChangeEventHandler" FullName="Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_OnBeforeChangeEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8d211238ecf9cd17a6b7ed10e5146f71105d5a66" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20569580" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void _DataDOMEventSink_OnBeforeChangeEventHandler(DataDOMEvent pDataDOMEvent);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed _DataDOMEventSink_OnBeforeChangeEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_OnBeforeChangeEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub _DataDOMEventSink_OnBeforeChangeEventHandler(pDataDOMEvent As DataDOMEvent)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void _DataDOMEventSink_OnBeforeChangeEventHandler(DataDOMEvent ^ pDataDOMEvent);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="pDataDOMEvent" Type="Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEvent" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="pDataDOMEvent">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

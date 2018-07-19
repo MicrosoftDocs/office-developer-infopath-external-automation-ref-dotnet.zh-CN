@@ -1,0 +1,286 @@
+<Type Name="XDocuments2" FullName="Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7151f12bb17dfc0e41dd610a071ad5fed69b624f" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20570385" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface XDocuments2 : Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract XDocuments2 implements class Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2" />
+  <TypeSignature Language="VB.NET" Value="Public Interface XDocuments2&#xA;Implements XDocuments" />
+  <TypeSignature Language="C++ CLI" Value="public interface class XDocuments2 : Microsoft::Office::Interop::InfoPath::SemiTrust::XDocuments" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("096cd647-0786-11d1-95fa-0080c78ee3bb")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(System.Runtime.InteropServices.ComInterfaceType.InterfaceIsDual)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="public void Close (object varIndex);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Close(object varIndex) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Close(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Close (varIndex As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Close(System::Object ^ varIndex);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments.Close(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varIndex" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="varIndex">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments.Count</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument this[object varIndex] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument Item(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(varIndex As Object) As XDocument" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::InfoPath::SemiTrust::XDocument ^ default[System::Object ^] { Microsoft::Office::Interop::InfoPath::SemiTrust::XDocument ^ get(System::Object ^ varIndex); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments.Item(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varIndex" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="varIndex">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="New">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument New (object varURI, int dwBehavior);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument New(object varURI, int32 dwBehavior) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.New(System.Object,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function New (varURI As Object, dwBehavior As Integer) As XDocument" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::InfoPath::SemiTrust::XDocument ^ New(System::Object ^ varURI, int dwBehavior);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments.New(System.Object,System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varURI" Type="System.Object" />
+        <Parameter Name="dwBehavior" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="varURI">To be added.</param>
+        <param name="dwBehavior">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewFromSolution">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument NewFromSolution (object varURI);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument NewFromSolution(object varURI) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.NewFromSolution(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function NewFromSolution (varURI As Object) As XDocument" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::InfoPath::SemiTrust::XDocument ^ NewFromSolution(System::Object ^ varURI);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments.NewFromSolution(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varURI" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="varURI">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewFromSolutionWithData">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument NewFromSolutionWithData (object varXMLData, object varSolutionURI, int dwBehavior);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument NewFromSolutionWithData(object varXMLData, object varSolutionURI, int32 dwBehavior) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.NewFromSolutionWithData(System.Object,System.Object,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function NewFromSolutionWithData (varXMLData As Object, varSolutionURI As Object, dwBehavior As Integer) As XDocument" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::InfoPath::SemiTrust::XDocument ^ NewFromSolutionWithData(System::Object ^ varXMLData, System::Object ^ varSolutionURI, int dwBehavior);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varXMLData" Type="System.Object" />
+        <Parameter Name="varSolutionURI" Type="System.Object" />
+        <Parameter Name="dwBehavior" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="varXMLData">To be added.</param>
+        <param name="varSolutionURI">To be added.</param>
+        <param name="dwBehavior">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Open">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument Open (object varURI, int dwBehavior);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument Open(object varURI, int32 dwBehavior) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Open(System.Object,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Open (varURI As Object, dwBehavior As Integer) As XDocument" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::InfoPath::SemiTrust::XDocument ^ Open(System::Object ^ varURI, int dwBehavior);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments.Open(System.Object,System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varURI" Type="System.Object" />
+        <Parameter Name="dwBehavior" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="varURI">To be added.</param>
+        <param name="dwBehavior">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

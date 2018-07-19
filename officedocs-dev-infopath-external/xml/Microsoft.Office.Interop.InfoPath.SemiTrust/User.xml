@@ -1,0 +1,92 @@
+<Type Name="User" FullName="Microsoft.Office.Interop.InfoPath.SemiTrust.User">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="fc44e9c5ace2571f8157c0aa4a380c9ce9057271" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20570301" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface User" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract User" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SemiTrust.User" />
+  <TypeSignature Language="VB.NET" Value="Public Interface User" />
+  <TypeSignature Language="C++ CLI" Value="public interface class User" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("096cd6bc-0786-11d1-95fa-0080c78ee3bb")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(System.Runtime.InteropServices.ComInterfaceType.InterfaceIsDual)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="IsCurrentUser">
+      <MemberSignature Language="C#" Value="public bool IsCurrentUser (string bstrUsername);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsCurrentUser(string bstrUsername) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.User.IsCurrentUser(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsCurrentUser (bstrUsername As String) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsCurrentUser(System::String ^ bstrUsername);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrUsername" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrUsername">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsUserMemberOf">
+      <MemberSignature Language="C#" Value="public bool IsUserMemberOf (string bstrGroupname);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsUserMemberOf(string bstrGroupname) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.User.IsUserMemberOf(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsUserMemberOf (bstrGroupname As String) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsUserMemberOf(System::String ^ bstrGroupname);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrGroupname" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrGroupname">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

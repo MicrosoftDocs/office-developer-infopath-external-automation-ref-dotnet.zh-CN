@@ -1,0 +1,37 @@
+<Type Name="DOMDocument50" FullName="Microsoft.Office.Interop.InfoPath.SemiTrust.DOMDocument50">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="669907eb5d9b6a5ba75c634309d0d8d3d2c7225f" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20567893" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface DOMDocument50 : Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract DOMDocument50 implements class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument, class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument2, class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3, class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMDocument50" />
+  <TypeSignature Language="VB.NET" Value="Public Interface DOMDocument50&#xA;Implements IXMLDOMDocument3" />
+  <TypeSignature Language="C++ CLI" Value="public interface class DOMDocument50 : Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMDocument3" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.InfoPath.SemiTrust.DOMDocument50Wrapper))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("2933BF96-7B36-11d2-B20E-00C04F983E60")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

@@ -1,0 +1,38 @@
+<Type Name="_XDocumentEventSink2_OnAfterImportEventHandler" FullName="Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_OnAfterImportEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="433d8bd83005156599102592493e4b8ba16c1a19" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20567970" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void _XDocumentEventSink2_OnAfterImportEventHandler(DocEvent pEvent);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed _XDocumentEventSink2_OnAfterImportEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_OnAfterImportEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub _XDocumentEventSink2_OnAfterImportEventHandler(pEvent As DocEvent)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void _XDocumentEventSink2_OnAfterImportEventHandler(DocEvent ^ pEvent);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="pEvent" Type="Microsoft.Office.Interop.InfoPath.SemiTrust.DocEvent" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="pEvent">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

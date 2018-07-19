@@ -1,0 +1,174 @@
+<Type Name="_XDocumentEventSink" FullName="Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="91e3f9c0e559aebe29c9e6257093dcaed519aa6a" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20569174" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _XDocumentEventSink" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _XDocumentEventSink" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _XDocumentEventSink" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _XDocumentEventSink" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("096cd551-0786-11d1-95fa-0080c78ee3bb")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(System.Runtime.InteropServices.ComInterfaceType.InterfaceIsDual)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="OnAfterImport">
+      <MemberSignature Language="C#" Value="public void OnAfterImport (Microsoft.Office.Interop.InfoPath.SemiTrust.DocEvent pEvent);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnAfterImport(class Microsoft.Office.Interop.InfoPath.SemiTrust.DocEvent pEvent) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink.OnAfterImport(Microsoft.Office.Interop.InfoPath.SemiTrust.DocEvent)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnAfterImport (pEvent As DocEvent)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void OnAfterImport(Microsoft::Office::Interop::InfoPath::SemiTrust::DocEvent ^ pEvent);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pEvent" Type="Microsoft.Office.Interop.InfoPath.SemiTrust.DocEvent" />
+      </Parameters>
+      <Docs>
+        <param name="pEvent">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnLoad">
+      <MemberSignature Language="C#" Value="public void OnLoad (Microsoft.Office.Interop.InfoPath.SemiTrust.DocReturnEvent pEvent);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnLoad(class Microsoft.Office.Interop.InfoPath.SemiTrust.DocReturnEvent pEvent) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink.OnLoad(Microsoft.Office.Interop.InfoPath.SemiTrust.DocReturnEvent)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnLoad (pEvent As DocReturnEvent)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void OnLoad(Microsoft::Office::Interop::InfoPath::SemiTrust::DocReturnEvent ^ pEvent);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pEvent" Type="Microsoft.Office.Interop.InfoPath.SemiTrust.DocReturnEvent" />
+      </Parameters>
+      <Docs>
+        <param name="pEvent">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnSubmitRequest">
+      <MemberSignature Language="C#" Value="public void OnSubmitRequest (Microsoft.Office.Interop.InfoPath.SemiTrust.DocReturnEvent pEvent);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnSubmitRequest(class Microsoft.Office.Interop.InfoPath.SemiTrust.DocReturnEvent pEvent) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink.OnSubmitRequest(Microsoft.Office.Interop.InfoPath.SemiTrust.DocReturnEvent)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnSubmitRequest (pEvent As DocReturnEvent)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void OnSubmitRequest(Microsoft::Office::Interop::InfoPath::SemiTrust::DocReturnEvent ^ pEvent);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pEvent" Type="Microsoft.Office.Interop.InfoPath.SemiTrust.DocReturnEvent" />
+      </Parameters>
+      <Docs>
+        <param name="pEvent">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnSwitchView">
+      <MemberSignature Language="C#" Value="public void OnSwitchView (Microsoft.Office.Interop.InfoPath.SemiTrust.DocEvent pEvent);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnSwitchView(class Microsoft.Office.Interop.InfoPath.SemiTrust.DocEvent pEvent) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink.OnSwitchView(Microsoft.Office.Interop.InfoPath.SemiTrust.DocEvent)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnSwitchView (pEvent As DocEvent)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void OnSwitchView(Microsoft::Office::Interop::InfoPath::SemiTrust::DocEvent ^ pEvent);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pEvent" Type="Microsoft.Office.Interop.InfoPath.SemiTrust.DocEvent" />
+      </Parameters>
+      <Docs>
+        <param name="pEvent">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnVersionUpgrade">
+      <MemberSignature Language="C#" Value="public void OnVersionUpgrade (Microsoft.Office.Interop.InfoPath.SemiTrust.VersionUpgradeEvent pEvent);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnVersionUpgrade(class Microsoft.Office.Interop.InfoPath.SemiTrust.VersionUpgradeEvent pEvent) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink.OnVersionUpgrade(Microsoft.Office.Interop.InfoPath.SemiTrust.VersionUpgradeEvent)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnVersionUpgrade (pEvent As VersionUpgradeEvent)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void OnVersionUpgrade(Microsoft::Office::Interop::InfoPath::SemiTrust::VersionUpgradeEvent ^ pEvent);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pEvent" Type="Microsoft.Office.Interop.InfoPath.SemiTrust.VersionUpgradeEvent" />
+      </Parameters>
+      <Docs>
+        <param name="pEvent">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

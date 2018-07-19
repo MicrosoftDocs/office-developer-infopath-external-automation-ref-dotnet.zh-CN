@@ -1,0 +1,159 @@
+<Type Name="IXMLDOMParseErrorCollection" FullName="Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMParseErrorCollection">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3955da7959b9ef916fefc8ba8036381af1e70f21" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20570875" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface IXMLDOMParseErrorCollection" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IXMLDOMParseErrorCollection" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMParseErrorCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IXMLDOMParseErrorCollection" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IXMLDOMParseErrorCollection" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("3efaa429-272f-11d2-836f-0000f87a7782")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(System.Runtime.InteropServices.ComInterfaceType.InterfaceIsDual)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMParseErrorCollection.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMParseError2 this[int index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMParseError2 Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMParseErrorCollection.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(index As Integer) As IXMLDOMParseError2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMParseError2 ^ default[int] { Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMParseError2 ^ get(int index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMParseError2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="length">
+      <MemberSignature Language="C#" Value="public int length { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 length" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMParseErrorCollection.length" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property length As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int length { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(193)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="next">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMParseError2 next { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMParseError2 next" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMParseErrorCollection.next" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property next As IXMLDOMParseError2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMParseError2 ^ next { Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMParseError2 ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(194)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMParseError2</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="reset">
+      <MemberSignature Language="C#" Value="public void reset ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void reset() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMParseErrorCollection.reset" />
+      <MemberSignature Language="VB.NET" Value="Public Sub reset ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void reset();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(195)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

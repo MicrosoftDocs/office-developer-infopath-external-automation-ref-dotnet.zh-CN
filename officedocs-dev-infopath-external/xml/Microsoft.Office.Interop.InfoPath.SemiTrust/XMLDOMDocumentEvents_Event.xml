@@ -1,0 +1,72 @@
+<Type Name="XMLDOMDocumentEvents_Event" FullName="Microsoft.Office.Interop.InfoPath.SemiTrust.XMLDOMDocumentEvents_Event">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8b43bb57d7d3ba656ca1620659d63ac062543678" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20568068" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface XMLDOMDocumentEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract XMLDOMDocumentEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SemiTrust.XMLDOMDocumentEvents_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface XMLDOMDocumentEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class XMLDOMDocumentEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Interop.InfoPath.SemiTrust.XMLDOMDocumentEvents), typeof(Microsoft.Office.Interop.InfoPath.SemiTrust.XMLDOMDocumentEvents_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ondataavailable">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.InfoPath.SemiTrust.XMLDOMDocumentEvents_ondataavailableEventHandler ondataavailable;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.InfoPath.SemiTrust.XMLDOMDocumentEvents_ondataavailableEventHandler ondataavailable" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.InfoPath.SemiTrust.XMLDOMDocumentEvents_Event.ondataavailable" />
+      <MemberSignature Language="VB.NET" Value="Event ondataavailable As XMLDOMDocumentEvents_ondataavailableEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::InfoPath::SemiTrust::XMLDOMDocumentEvents_ondataavailableEventHandler ^ ondataavailable;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.XMLDOMDocumentEvents_ondataavailableEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="onreadystatechange">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.InfoPath.SemiTrust.XMLDOMDocumentEvents_onreadystatechangeEventHandler onreadystatechange;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.InfoPath.SemiTrust.XMLDOMDocumentEvents_onreadystatechangeEventHandler onreadystatechange" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.InfoPath.SemiTrust.XMLDOMDocumentEvents_Event.onreadystatechange" />
+      <MemberSignature Language="VB.NET" Value="Event onreadystatechange As XMLDOMDocumentEvents_onreadystatechangeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::InfoPath::SemiTrust::XMLDOMDocumentEvents_onreadystatechangeEventHandler ^ onreadystatechange;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.XMLDOMDocumentEvents_onreadystatechangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

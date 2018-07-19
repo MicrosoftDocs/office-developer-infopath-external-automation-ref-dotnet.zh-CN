@@ -1,0 +1,37 @@
+<Type Name="XDocumentsCollection" FullName="Microsoft.Office.Interop.InfoPath.SemiTrust.XDocumentsCollection">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e63406b143b1ea7f7e638f814313c9ef356c0cff" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20569300" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface XDocumentsCollection : Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract XDocumentsCollection implements class Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments, class Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SemiTrust.XDocumentsCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Interface XDocumentsCollection&#xA;Implements XDocuments2" />
+  <TypeSignature Language="C++ CLI" Value="public interface class XDocumentsCollection : Microsoft::Office::Interop::InfoPath::SemiTrust::XDocuments2" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.InfoPath.SemiTrust.XDocumentsCollectionWrapper))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("096cd647-0786-11d1-95fa-0080c78ee3bb")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

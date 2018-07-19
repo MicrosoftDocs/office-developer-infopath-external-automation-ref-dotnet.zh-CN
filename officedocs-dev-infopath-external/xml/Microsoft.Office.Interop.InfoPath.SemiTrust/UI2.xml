@@ -1,0 +1,265 @@
+<Type Name="UI2" FullName="Microsoft.Office.Interop.InfoPath.SemiTrust.UI2">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="449c79873fe90fae6a830077291dcfc0b872e195" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20569146" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface UI2 : Microsoft.Office.Interop.InfoPath.SemiTrust.UI" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract UI2 implements class Microsoft.Office.Interop.InfoPath.SemiTrust.UI" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SemiTrust.UI2" />
+  <TypeSignature Language="VB.NET" Value="Public Interface UI2&#xA;Implements UI" />
+  <TypeSignature Language="C++ CLI" Value="public interface class UI2 : Microsoft::Office::Interop::InfoPath::SemiTrust::UI" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.SemiTrust.UI</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("096cd549-0786-11d1-95fa-0080c78ee3bb")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(System.Runtime.InteropServices.ComInterfaceType.InterfaceIsDual)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Alert">
+      <MemberSignature Language="C#" Value="public void Alert (string bstrAlertString);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Alert(string bstrAlertString) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Alert(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Alert (bstrAlertString As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Alert(System::String ^ bstrAlertString);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.UI.Alert(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrAlertString" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrAlertString">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Confirm">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.XdConfirmChoice Confirm (string bstrPrompt, Microsoft.Office.Interop.InfoPath.SemiTrust.XdConfirmButtons lButtons);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.Office.Interop.InfoPath.SemiTrust.XdConfirmChoice Confirm(string bstrPrompt, valuetype Microsoft.Office.Interop.InfoPath.SemiTrust.XdConfirmButtons lButtons) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Confirm(System.String,Microsoft.Office.Interop.InfoPath.SemiTrust.XdConfirmButtons)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Confirm (bstrPrompt As String, lButtons As XdConfirmButtons) As XdConfirmChoice" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::InfoPath::SemiTrust::XdConfirmChoice Confirm(System::String ^ bstrPrompt, Microsoft::Office::Interop::InfoPath::SemiTrust::XdConfirmButtons lButtons);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.XdConfirmChoice</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrPrompt" Type="System.String" />
+        <Parameter Name="lButtons" Type="Microsoft.Office.Interop.InfoPath.SemiTrust.XdConfirmButtons" />
+      </Parameters>
+      <Docs>
+        <param name="bstrPrompt">To be added.</param>
+        <param name="lButtons">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetSaveAsDialogFileName">
+      <MemberSignature Language="C#" Value="public void SetSaveAsDialogFileName (string bstrFileName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetSaveAsDialogFileName(string bstrFileName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.SetSaveAsDialogFileName(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetSaveAsDialogFileName (bstrFileName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetSaveAsDialogFileName(System::String ^ bstrFileName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrFileName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrFileName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetSaveAsDialogLocation">
+      <MemberSignature Language="C#" Value="public void SetSaveAsDialogLocation (string bstrLocation);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetSaveAsDialogLocation(string bstrLocation) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.SetSaveAsDialogLocation(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetSaveAsDialogLocation (bstrLocation As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetSaveAsDialogLocation(System::String ^ bstrLocation);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrLocation" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrLocation">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowMailItem">
+      <MemberSignature Language="C#" Value="public void ShowMailItem (string bstrTo, string bstrCC, string bstrBCC, string bstrSubject, string bstrBody);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ShowMailItem(string bstrTo, string bstrCC, string bstrBCC, string bstrSubject, string bstrBody) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowMailItem(System.String,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ShowMailItem (bstrTo As String, bstrCC As String, bstrBCC As String, bstrSubject As String, bstrBody As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ShowMailItem(System::String ^ bstrTo, System::String ^ bstrCC, System::String ^ bstrBCC, System::String ^ bstrSubject, System::String ^ bstrBody);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.UI.ShowMailItem(System.String,System.String,System.String,System.String,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrTo" Type="System.String" />
+        <Parameter Name="bstrCC" Type="System.String" />
+        <Parameter Name="bstrBCC" Type="System.String" />
+        <Parameter Name="bstrSubject" Type="System.String" />
+        <Parameter Name="bstrBody" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrTo">To be added.</param>
+        <param name="bstrCC">To be added.</param>
+        <param name="bstrBCC">To be added.</param>
+        <param name="bstrSubject">To be added.</param>
+        <param name="bstrBody">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowModalDialog">
+      <MemberSignature Language="C#" Value="public object ShowModalDialog (string bstrName, object varArguments, object varHeight, object varWidth, object varTop, object varLeft);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object ShowModalDialog(string bstrName, object varArguments, object varHeight, object varWidth, object varTop, object varLeft) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog(System.String,System.Object,System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ShowModalDialog (bstrName As String, varArguments As Object, varHeight As Object, varWidth As Object, varTop As Object, varLeft As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ ShowModalDialog(System::String ^ bstrName, System::Object ^ varArguments, System::Object ^ varHeight, System::Object ^ varWidth, System::Object ^ varTop, System::Object ^ varLeft);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.UI.ShowModalDialog(System.String,System.Object,System.Object,System.Object,System.Object,System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrName" Type="System.String" />
+        <Parameter Name="varArguments" Type="System.Object" />
+        <Parameter Name="varHeight" Type="System.Object" />
+        <Parameter Name="varWidth" Type="System.Object" />
+        <Parameter Name="varTop" Type="System.Object" />
+        <Parameter Name="varLeft" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="bstrName">To be added.</param>
+        <param name="varArguments">To be added.</param>
+        <param name="varHeight">To be added.</param>
+        <param name="varWidth">To be added.</param>
+        <param name="varTop">To be added.</param>
+        <param name="varLeft">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowSignatureDialog">
+      <MemberSignature Language="C#" Value="public void ShowSignatureDialog ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ShowSignatureDialog() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowSignatureDialog" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ShowSignatureDialog ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ShowSignatureDialog();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.UI.ShowSignatureDialog</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

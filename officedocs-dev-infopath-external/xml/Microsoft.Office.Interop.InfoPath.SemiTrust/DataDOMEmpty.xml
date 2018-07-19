@@ -1,0 +1,33 @@
+<Type Name="DataDOMEmpty" FullName="Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEmpty">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="1f841aea485800463a31e72195b05eb548506474" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20571001" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface DataDOMEmpty" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract DataDOMEmpty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEmpty" />
+  <TypeSignature Language="VB.NET" Value="Public Interface DataDOMEmpty" />
+  <TypeSignature Language="C++ CLI" Value="public interface class DataDOMEmpty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("096cd785-0786-11d1-95fa-0080c78ee3bb")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(System.Runtime.InteropServices.ComInterfaceType.InterfaceIsIUnknown)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

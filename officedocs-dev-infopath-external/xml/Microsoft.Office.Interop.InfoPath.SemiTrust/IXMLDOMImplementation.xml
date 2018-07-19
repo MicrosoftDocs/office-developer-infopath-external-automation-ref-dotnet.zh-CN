@@ -1,0 +1,65 @@
+<Type Name="IXMLDOMImplementation" FullName="Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMImplementation">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7a9ecd324b6082e176fd5266bc8c6cbadce66555" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20569748" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface IXMLDOMImplementation" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IXMLDOMImplementation" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMImplementation" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IXMLDOMImplementation" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IXMLDOMImplementation" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("2933BF8F-7B36-11d2-B20E-00C04F983E60")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(System.Runtime.InteropServices.ComInterfaceType.InterfaceIsDual)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="hasFeature">
+      <MemberSignature Language="C#" Value="public bool hasFeature (string feature, string version);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool hasFeature(string feature, string version) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMImplementation.hasFeature(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function hasFeature (feature As String, version As String) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool hasFeature(System::String ^ feature, System::String ^ version);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(145)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="feature" Type="System.String" />
+        <Parameter Name="version" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="feature">To be added.</param>
+        <param name="version">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

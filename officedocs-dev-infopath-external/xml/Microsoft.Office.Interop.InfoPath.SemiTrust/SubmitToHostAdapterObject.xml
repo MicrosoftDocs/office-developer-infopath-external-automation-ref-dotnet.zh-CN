@@ -1,0 +1,37 @@
+<Type Name="SubmitToHostAdapterObject" FullName="Microsoft.Office.Interop.InfoPath.SemiTrust.SubmitToHostAdapterObject">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="87ee768383b8965f8902a2ff03bcc5861abc6941" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20569104" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface SubmitToHostAdapterObject : Microsoft.Office.Interop.InfoPath.SemiTrust.SubmitToHostAdapter" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SubmitToHostAdapterObject implements class Microsoft.Office.Interop.InfoPath.SemiTrust.SubmitToHostAdapter" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SemiTrust.SubmitToHostAdapterObject" />
+  <TypeSignature Language="VB.NET" Value="Public Interface SubmitToHostAdapterObject&#xA;Implements SubmitToHostAdapter" />
+  <TypeSignature Language="C++ CLI" Value="public interface class SubmitToHostAdapterObject : Microsoft::Office::Interop::InfoPath::SemiTrust::SubmitToHostAdapter" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.SemiTrust.SubmitToHostAdapter</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.InfoPath.SemiTrust.SubmitToHostAdapterObjectWrapper))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("096cd739-0786-11d1-95fa-0080c78ee3bb")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

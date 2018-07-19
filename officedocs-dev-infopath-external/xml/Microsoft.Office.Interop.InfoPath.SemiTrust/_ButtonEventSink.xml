@@ -1,0 +1,62 @@
+<Type Name="_ButtonEventSink" FullName="Microsoft.Office.Interop.InfoPath.SemiTrust._ButtonEventSink">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0bfb472dc56587ab29e4d06e7cef48a64d7a7a92" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20567949" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _ButtonEventSink" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _ButtonEventSink" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SemiTrust._ButtonEventSink" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _ButtonEventSink" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _ButtonEventSink" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("096cd6ab-0786-11d1-95fa-0080c78ee3bb")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(System.Runtime.InteropServices.ComInterfaceType.InterfaceIsDual)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="OnClick">
+      <MemberSignature Language="C#" Value="public void OnClick (Microsoft.Office.Interop.InfoPath.SemiTrust.DocActionEvent pEvent);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnClick(class Microsoft.Office.Interop.InfoPath.SemiTrust.DocActionEvent pEvent) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust._ButtonEventSink.OnClick(Microsoft.Office.Interop.InfoPath.SemiTrust.DocActionEvent)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnClick (pEvent As DocActionEvent)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void OnClick(Microsoft::Office::Interop::InfoPath::SemiTrust::DocActionEvent ^ pEvent);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pEvent" Type="Microsoft.Office.Interop.InfoPath.SemiTrust.DocActionEvent" />
+      </Parameters>
+      <Docs>
+        <param name="pEvent">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

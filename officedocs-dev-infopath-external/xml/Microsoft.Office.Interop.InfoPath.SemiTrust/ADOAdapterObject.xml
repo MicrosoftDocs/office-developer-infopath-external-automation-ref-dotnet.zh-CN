@@ -1,0 +1,37 @@
+<Type Name="ADOAdapterObject" FullName="Microsoft.Office.Interop.InfoPath.SemiTrust.ADOAdapterObject">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8cf4dd455a50679e4d9db9a7e019a818e4471f03" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20570469" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface ADOAdapterObject : Microsoft.Office.Interop.InfoPath.SemiTrust.ADOAdapter2" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ADOAdapterObject implements class Microsoft.Office.Interop.InfoPath.SemiTrust.ADOAdapter, class Microsoft.Office.Interop.InfoPath.SemiTrust.ADOAdapter2" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SemiTrust.ADOAdapterObject" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ADOAdapterObject&#xA;Implements ADOAdapter2" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ADOAdapterObject : Microsoft::Office::Interop::InfoPath::SemiTrust::ADOAdapter2" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.SemiTrust.ADOAdapter2</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.InfoPath.SemiTrust.ADOAdapterObjectWrapper))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("096cd5d3-0786-11d1-95fa-0080c78ee3bb")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

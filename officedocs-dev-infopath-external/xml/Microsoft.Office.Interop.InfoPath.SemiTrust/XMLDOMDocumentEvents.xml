@@ -1,0 +1,84 @@
+<Type Name="XMLDOMDocumentEvents" FullName="Microsoft.Office.Interop.InfoPath.SemiTrust.XMLDOMDocumentEvents">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d328e40176369fc9ae54f0a6342623b24b4910e8" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20569972" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface XMLDOMDocumentEvents" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract XMLDOMDocumentEvents" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SemiTrust.XMLDOMDocumentEvents" />
+  <TypeSignature Language="VB.NET" Value="Public Interface XMLDOMDocumentEvents" />
+  <TypeSignature Language="C++ CLI" Value="public interface class XMLDOMDocumentEvents" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("3efaa427-272f-11d2-836f-0000f87a7782")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(System.Runtime.InteropServices.ComInterfaceType.InterfaceIsIDispatch)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ondataavailable">
+      <MemberSignature Language="C#" Value="public void ondataavailable ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ondataavailable() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.XMLDOMDocumentEvents.ondataavailable" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ondataavailable ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ondataavailable();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(198)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="onreadystatechange">
+      <MemberSignature Language="C#" Value="public void onreadystatechange ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void onreadystatechange() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.XMLDOMDocumentEvents.onreadystatechange" />
+      <MemberSignature Language="VB.NET" Value="Public Sub onreadystatechange ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void onreadystatechange();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-609)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
