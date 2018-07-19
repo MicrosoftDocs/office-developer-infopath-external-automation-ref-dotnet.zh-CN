@@ -1,0 +1,37 @@
+<Type Name="DOMNodeList" FullName="Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeList">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="672937bf656ac203740424ff5e6386dda763632c" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20571302" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface DOMNodeList : Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNodeList" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract DOMNodeList implements class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNodeList" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeList" />
+  <TypeSignature Language="VB.NET" Value="Public Interface DOMNodeList&#xA;Implements IXMLDOMNodeList" />
+  <TypeSignature Language="C++ CLI" Value="public interface class DOMNodeList : Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNodeList" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNodeList</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeListWrapper))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("2933BF82-7B36-11d2-B20E-00C04F983E60")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

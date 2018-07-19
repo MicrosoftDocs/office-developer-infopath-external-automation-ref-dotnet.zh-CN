@@ -1,0 +1,59 @@
+<Type Name="XMLFileAdapter" FullName="Microsoft.Office.Interop.InfoPath.SemiTrust.XMLFileAdapter">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2a7e1cc8016652fe9b13b4c2cb3ad4735fbe8b73" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20570392" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface XMLFileAdapter" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract XMLFileAdapter" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SemiTrust.XMLFileAdapter" />
+  <TypeSignature Language="VB.NET" Value="Public Interface XMLFileAdapter" />
+  <TypeSignature Language="C++ CLI" Value="public interface class XMLFileAdapter" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("096cd655-0786-11d1-95fa-0080c78ee3bb")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(System.Runtime.InteropServices.ComInterfaceType.InterfaceIsDual)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FileURL">
+      <MemberSignature Language="C#" Value="public string FileURL { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FileURL" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.XMLFileAdapter.FileURL" />
+      <MemberSignature Language="VB.NET" Value="Public Property FileURL As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FileURL { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

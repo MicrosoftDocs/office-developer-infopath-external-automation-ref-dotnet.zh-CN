@@ -1,0 +1,37 @@
+<Type Name="XSLTemplate" FullName="Microsoft.Office.Interop.InfoPath.SemiTrust.XSLTemplate">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ede1546b8a23789cd93a07871ba832da7f21418d" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20567844" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface XSLTemplate : Microsoft.Office.Interop.InfoPath.SemiTrust.IXSLTemplate" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract XSLTemplate implements class Microsoft.Office.Interop.InfoPath.SemiTrust.IXSLTemplate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SemiTrust.XSLTemplate" />
+  <TypeSignature Language="VB.NET" Value="Public Interface XSLTemplate&#xA;Implements IXSLTemplate" />
+  <TypeSignature Language="C++ CLI" Value="public interface class XSLTemplate : Microsoft::Office::Interop::InfoPath::SemiTrust::IXSLTemplate" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.SemiTrust.IXSLTemplate</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.InfoPath.SemiTrust.XSLTemplateWrapper))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("2933BF93-7B36-11d2-B20E-00C04F983E60")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

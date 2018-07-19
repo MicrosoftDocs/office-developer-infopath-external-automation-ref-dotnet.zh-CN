@@ -1,0 +1,38 @@
+<Type Name="_DataDOMEventSink_OnValidateEventHandler" FullName="Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_OnValidateEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a6fa483a855eb57d8eca8f5d31e479c23c3f183f" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20567753" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void _DataDOMEventSink_OnValidateEventHandler(DataDOMEvent pDataDOMEvent);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed _DataDOMEventSink_OnValidateEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_OnValidateEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub _DataDOMEventSink_OnValidateEventHandler(pDataDOMEvent As DataDOMEvent)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void _DataDOMEventSink_OnValidateEventHandler(DataDOMEvent ^ pDataDOMEvent);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="pDataDOMEvent" Type="Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEvent" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="pDataDOMEvent">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

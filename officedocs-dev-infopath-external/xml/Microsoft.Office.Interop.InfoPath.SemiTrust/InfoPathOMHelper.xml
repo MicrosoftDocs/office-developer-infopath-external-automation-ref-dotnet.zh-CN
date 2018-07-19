@@ -1,0 +1,182 @@
+<Type Name="InfoPathOMHelper" FullName="Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathOMHelper">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="525fe30e5d42c10553bccdf3378ad7b4151030c6" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20569881" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class InfoPathOMHelper" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit InfoPathOMHelper extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathOMHelper" />
+  <TypeSignature Language="VB.NET" Value="Public Class InfoPathOMHelper" />
+  <TypeSignature Language="C++ CLI" Value="public ref class InfoPathOMHelper" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public InfoPathOMHelper ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathOMHelper.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; InfoPathOMHelper();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Init">
+      <MemberSignature Language="C#" Value="public string Init (object app, object doc, string urn, string applicationPath, bool isFT, bool showExceptions);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string Init(object app, object doc, string urn, string applicationPath, bool isFT, bool showExceptions) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathOMHelper.Init(System.Object,System.Object,System.String,System.String,System.Boolean,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Init (app As Object, doc As Object, urn As String, applicationPath As String, isFT As Boolean, showExceptions As Boolean) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ Init(System::Object ^ app, System::Object ^ doc, System::String ^ urn, System::String ^ applicationPath, bool isFT, bool showExceptions);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="app" Type="System.Object" />
+        <Parameter Name="doc" Type="System.Object" />
+        <Parameter Name="urn" Type="System.String" />
+        <Parameter Name="applicationPath" Type="System.String" />
+        <Parameter Name="isFT" Type="System.Boolean" />
+        <Parameter Name="showExceptions" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="app">To be added.</param>
+        <param name="doc">To be added.</param>
+        <param name="urn">To be added.</param>
+        <param name="applicationPath">To be added.</param>
+        <param name="isFT">To be added.</param>
+        <param name="showExceptions">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Init2">
+      <MemberSignature Language="C#" Value="public string Init2 (object app, object doc, string urn, string[] publicKeyTokens, bool isFT, bool showExceptions);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string Init2(object app, object doc, string urn, string[] publicKeyTokens, bool isFT, bool showExceptions) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathOMHelper.Init2(System.Object,System.Object,System.String,System.String[],System.Boolean,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Init2 (app As Object, doc As Object, urn As String, publicKeyTokens As String(), isFT As Boolean, showExceptions As Boolean) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ Init2(System::Object ^ app, System::Object ^ doc, System::String ^ urn, cli::array &lt;System::String ^&gt; ^ publicKeyTokens, bool isFT, bool showExceptions);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="app" Type="System.Object" />
+        <Parameter Name="doc" Type="System.Object" />
+        <Parameter Name="urn" Type="System.String" />
+        <Parameter Name="publicKeyTokens" Type="System.String[]" />
+        <Parameter Name="isFT" Type="System.Boolean" />
+        <Parameter Name="showExceptions" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="app">To be added.</param>
+        <param name="doc">To be added.</param>
+        <param name="urn">To be added.</param>
+        <param name="publicKeyTokens">To be added.</param>
+        <param name="isFT">To be added.</param>
+        <param name="showExceptions">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadUserAssemblyWithEvidence">
+      <MemberSignature Language="C#" Value="public void LoadUserAssemblyWithEvidence (string assemblyFullPathName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void LoadUserAssemblyWithEvidence(string assemblyFullPathName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathOMHelper.LoadUserAssemblyWithEvidence(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub LoadUserAssemblyWithEvidence (assemblyFullPathName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void LoadUserAssemblyWithEvidence(System::String ^ assemblyFullPathName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="assemblyFullPathName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="assemblyFullPathName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Run">
+      <MemberSignature Language="C#" Value="public object Run (string assemblyFullPathName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object Run(string assemblyFullPathName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathOMHelper.Run(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Run (assemblyFullPathName As String) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Run(System::String ^ assemblyFullPathName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="assemblyFullPathName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="assemblyFullPathName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Stop">
+      <MemberSignature Language="C#" Value="public bool Stop ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Stop() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathOMHelper.Stop" />
+      <MemberSignature Language="VB.NET" Value="Public Function Stop () As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Stop();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

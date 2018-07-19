@@ -1,0 +1,180 @@
+<Type Name="XdDocumentVersionMode" FullName="Microsoft.Office.Interop.InfoPath.SemiTrust.XdDocumentVersionMode">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c5797fd1a581d2b4a8a00f7909586df451cfedbc" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20569643" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XdDocumentVersionMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XdDocumentVersionMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SemiTrust.XdDocumentVersionMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XdDocumentVersionMode" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XdDocumentVersionMode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xdCanOpenInReadOnlyMode">
+      <MemberSignature Language="C#" Value="xdCanOpenInReadOnlyMode" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.SemiTrust.XdDocumentVersionMode xdCanOpenInReadOnlyMode = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.SemiTrust.XdDocumentVersionMode.xdCanOpenInReadOnlyMode" />
+      <MemberSignature Language="VB.NET" Value="xdCanOpenInReadOnlyMode" />
+      <MemberSignature Language="C++ CLI" Value="xdCanOpenInReadOnlyMode" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.XdDocumentVersionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdCanTransformSigned">
+      <MemberSignature Language="C#" Value="xdCanTransformSigned" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.SemiTrust.XdDocumentVersionMode xdCanTransformSigned = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.SemiTrust.XdDocumentVersionMode.xdCanTransformSigned" />
+      <MemberSignature Language="VB.NET" Value="xdCanTransformSigned" />
+      <MemberSignature Language="C++ CLI" Value="xdCanTransformSigned" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.XdDocumentVersionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdDoNotInstallActiveXCabs">
+      <MemberSignature Language="C#" Value="xdDoNotInstallActiveXCabs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.SemiTrust.XdDocumentVersionMode xdDoNotInstallActiveXCabs = int32(128)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.SemiTrust.XdDocumentVersionMode.xdDoNotInstallActiveXCabs" />
+      <MemberSignature Language="VB.NET" Value="xdDoNotInstallActiveXCabs" />
+      <MemberSignature Language="C++ CLI" Value="xdDoNotInstallActiveXCabs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.XdDocumentVersionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>128</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdFailOnVersionMismatch">
+      <MemberSignature Language="C#" Value="xdFailOnVersionMismatch" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.SemiTrust.XdDocumentVersionMode xdFailOnVersionMismatch = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.SemiTrust.XdDocumentVersionMode.xdFailOnVersionMismatch" />
+      <MemberSignature Language="VB.NET" Value="xdFailOnVersionMismatch" />
+      <MemberSignature Language="C++ CLI" Value="xdFailOnVersionMismatch" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.XdDocumentVersionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdFailOnVersionOlder">
+      <MemberSignature Language="C#" Value="xdFailOnVersionOlder" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.SemiTrust.XdDocumentVersionMode xdFailOnVersionOlder = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.SemiTrust.XdDocumentVersionMode.xdFailOnVersionOlder" />
+      <MemberSignature Language="VB.NET" Value="xdFailOnVersionOlder" />
+      <MemberSignature Language="C++ CLI" Value="xdFailOnVersionOlder" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.XdDocumentVersionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdIgnoreDataAdaptersQueryFailure">
+      <MemberSignature Language="C#" Value="xdIgnoreDataAdaptersQueryFailure" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.SemiTrust.XdDocumentVersionMode xdIgnoreDataAdaptersQueryFailure = int32(64)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.SemiTrust.XdDocumentVersionMode.xdIgnoreDataAdaptersQueryFailure" />
+      <MemberSignature Language="VB.NET" Value="xdIgnoreDataAdaptersQueryFailure" />
+      <MemberSignature Language="C++ CLI" Value="xdIgnoreDataAdaptersQueryFailure" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.XdDocumentVersionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>64</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdPromptTransformSigned">
+      <MemberSignature Language="C#" Value="xdPromptTransformSigned" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.SemiTrust.XdDocumentVersionMode xdPromptTransformSigned = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.SemiTrust.XdDocumentVersionMode.xdPromptTransformSigned" />
+      <MemberSignature Language="VB.NET" Value="xdPromptTransformSigned" />
+      <MemberSignature Language="C++ CLI" Value="xdPromptTransformSigned" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.XdDocumentVersionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdUseExistingVersion">
+      <MemberSignature Language="C#" Value="xdUseExistingVersion" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.SemiTrust.XdDocumentVersionMode xdUseExistingVersion = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.SemiTrust.XdDocumentVersionMode.xdUseExistingVersion" />
+      <MemberSignature Language="VB.NET" Value="xdUseExistingVersion" />
+      <MemberSignature Language="C++ CLI" Value="xdUseExistingVersion" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.XdDocumentVersionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

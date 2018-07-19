@@ -1,0 +1,104 @@
+<Type Name="XdSignatureStatus" FullName="Microsoft.Office.Interop.InfoPath.SemiTrust.XdSignatureStatus">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="31e6e03c591444ef9915f9be1e1cff78ebf6a274" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20567809" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XdSignatureStatus" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XdSignatureStatus extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SemiTrust.XdSignatureStatus" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XdSignatureStatus" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XdSignatureStatus" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xdSignatureStatusError">
+      <MemberSignature Language="C#" Value="xdSignatureStatusError" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.SemiTrust.XdSignatureStatus xdSignatureStatusError = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.SemiTrust.XdSignatureStatus.xdSignatureStatusError" />
+      <MemberSignature Language="VB.NET" Value="xdSignatureStatusError" />
+      <MemberSignature Language="C++ CLI" Value="xdSignatureStatusError" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.XdSignatureStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdSignatureStatusInvalid">
+      <MemberSignature Language="C#" Value="xdSignatureStatusInvalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.SemiTrust.XdSignatureStatus xdSignatureStatusInvalid = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.SemiTrust.XdSignatureStatus.xdSignatureStatusInvalid" />
+      <MemberSignature Language="VB.NET" Value="xdSignatureStatusInvalid" />
+      <MemberSignature Language="C++ CLI" Value="xdSignatureStatusInvalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.XdSignatureStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdSignatureStatusUnsupported">
+      <MemberSignature Language="C#" Value="xdSignatureStatusUnsupported" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.SemiTrust.XdSignatureStatus xdSignatureStatusUnsupported = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.SemiTrust.XdSignatureStatus.xdSignatureStatusUnsupported" />
+      <MemberSignature Language="VB.NET" Value="xdSignatureStatusUnsupported" />
+      <MemberSignature Language="C++ CLI" Value="xdSignatureStatusUnsupported" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.XdSignatureStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdSignatureStatusValid">
+      <MemberSignature Language="C#" Value="xdSignatureStatusValid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.SemiTrust.XdSignatureStatus xdSignatureStatusValid = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.SemiTrust.XdSignatureStatus.xdSignatureStatusValid" />
+      <MemberSignature Language="VB.NET" Value="xdSignatureStatusValid" />
+      <MemberSignature Language="C++ CLI" Value="xdSignatureStatusValid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.XdSignatureStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

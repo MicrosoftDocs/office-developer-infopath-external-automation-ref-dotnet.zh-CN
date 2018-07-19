@@ -1,0 +1,169 @@
+<Type Name="IDataAdapterMOM" FullName="Microsoft.Office.Interop.InfoPath.SemiTrust.IDataAdapterMOM">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="409594083f8604d696ff5195d2893c6f4295cbb0" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20570882" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface IDataAdapterMOM" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDataAdapterMOM" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SemiTrust.IDataAdapterMOM" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IDataAdapterMOM" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IDataAdapterMOM" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("096cd734-0786-11d1-95fa-0080c78ee3bb")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(System.Runtime.InteropServices.ComInterfaceType.InterfaceIsIUnknown)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GenerateDataSetDiffGramInXml">
+      <MemberSignature Language="C#" Value="public string GenerateDataSetDiffGramInXml ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GenerateDataSetDiffGramInXml() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.IDataAdapterMOM.GenerateDataSetDiffGramInXml" />
+      <MemberSignature Language="VB.NET" Value="Public Function GenerateDataSetDiffGramInXml () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ GenerateDataSetDiffGramInXml();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAdoSubmitName">
+      <MemberSignature Language="C#" Value="public string GetAdoSubmitName ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetAdoSubmitName() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.IDataAdapterMOM.GetAdoSubmitName" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAdoSubmitName () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ GetAdoSubmitName();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetErrorXMLForMOM">
+      <MemberSignature Language="C#" Value="public string GetErrorXMLForMOM ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetErrorXMLForMOM() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.IDataAdapterMOM.GetErrorXMLForMOM" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetErrorXMLForMOM () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ GetErrorXMLForMOM();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueryOrSubmitWithInputOutput">
+      <MemberSignature Language="C#" Value="public string QueryOrSubmitWithInputOutput (bool fInputIsNull, string bstrInputXML, bool fOutputIsNull);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string QueryOrSubmitWithInputOutput(bool fInputIsNull, string bstrInputXML, bool fOutputIsNull) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.IDataAdapterMOM.QueryOrSubmitWithInputOutput(System.Boolean,System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function QueryOrSubmitWithInputOutput (fInputIsNull As Boolean, bstrInputXML As String, fOutputIsNull As Boolean) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ QueryOrSubmitWithInputOutput(bool fInputIsNull, System::String ^ bstrInputXML, bool fOutputIsNull);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="fInputIsNull" Type="System.Boolean" />
+        <Parameter Name="bstrInputXML" Type="System.String" />
+        <Parameter Name="fOutputIsNull" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="fInputIsNull">To be added.</param>
+        <param name="bstrInputXML">To be added.</param>
+        <param name="fOutputIsNull">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueryWithOutput">
+      <MemberSignature Language="C#" Value="public string QueryWithOutput ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string QueryWithOutput() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.IDataAdapterMOM.QueryWithOutput" />
+      <MemberSignature Language="VB.NET" Value="Public Function QueryWithOutput () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ QueryWithOutput();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubmitWithInput">
+      <MemberSignature Language="C#" Value="public void SubmitWithInput (string bstrInputXML);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SubmitWithInput(string bstrInputXML) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.IDataAdapterMOM.SubmitWithInput(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SubmitWithInput (bstrInputXML As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SubmitWithInput(System::String ^ bstrInputXML);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrInputXML" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrInputXML">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

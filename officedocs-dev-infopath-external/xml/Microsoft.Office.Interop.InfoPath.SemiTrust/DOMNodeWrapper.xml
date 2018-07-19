@@ -1,0 +1,2719 @@
+<Type Name="DOMNodeWrapper" FullName="Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="1aa881d18bfc79e5048f338b8565f93eaf284575" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20571176" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class DOMNodeWrapper : Microsoft.Office.Interop.InfoPath.Helper.WrapperBase, Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNode, Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute, Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection, Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment, Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3, Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment, Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType, Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement, Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity, Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference, Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMImplementation, Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DOMNodeWrapper extends Microsoft.Office.Interop.InfoPath.Helper.WrapperBase implements class Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNode, class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute, class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection, class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCharacterData, class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment, class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument, class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument2, class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3, class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment, class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType, class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement, class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity, class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference, class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMImplementation, class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode, class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction, class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMText" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper" />
+  <TypeSignature Language="VB.NET" Value="Public Class DOMNodeWrapper&#xA;Inherits WrapperBase&#xA;Implements DOMNode, IXMLDOMAttribute, IXMLDOMCDATASection, IXMLDOMComment, IXMLDOMDocument3, IXMLDOMDocumentFragment, IXMLDOMDocumentType, IXMLDOMElement, IXMLDOMEntity, IXMLDOMEntityReference, IXMLDOMImplementation, IXMLDOMProcessingInstruction" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DOMNodeWrapper : Microsoft::Office::Interop::InfoPath::Helper::WrapperBase, Microsoft::Office::Interop::InfoPath::SemiTrust::DOMNode, Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMAttribute, Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMCDATASection, Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMComment, Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMDocument3, Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMDocumentFragment, Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMDocumentType, Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMElement, Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMEntity, Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMEntityReference, Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMImplementation, Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMProcessingInstruction" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Office.Interop.InfoPath.Helper.WrapperBase</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNode</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMImplementation</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DOMNodeWrapper ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DOMNodeWrapper();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DOMNodeWrapper (object objInstance, string solutionUri);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(object objInstance, string solutionUri) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.#ctor(System.Object,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (objInstance As Object, solutionUri As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DOMNodeWrapper(System::Object ^ objInstance, System::String ^ solutionUri);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="objInstance" Type="System.Object" />
+        <Parameter Name="solutionUri" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="objInstance">To be added.</param>
+        <param name="solutionUri">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="abort">
+      <MemberSignature Language="C#" Value="public void abort ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void abort() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.abort" />
+      <MemberSignature Language="VB.NET" Value="Public Sub abort ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void abort();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.abort</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="appendChild">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode appendChild (Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode newChild);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode appendChild(class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode newChild) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.appendChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)" />
+      <MemberSignature Language="VB.NET" Value="Public Function appendChild (newChild As IXMLDOMNode) As IXMLDOMNode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ appendChild(Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ newChild);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.appendChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.appendChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.appendChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.appendChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.appendChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.appendChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment.appendChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.appendChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.appendChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference.appendChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="newChild" Type="Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode" />
+      </Parameters>
+      <Docs>
+        <param name="newChild">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="appendData">
+      <MemberSignature Language="C#" Value="public void appendData (string data);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void appendData(string data) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.appendData(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub appendData (data As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void appendData(System::String ^ data);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.appendData(System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.appendData(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="data">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="async">
+      <MemberSignature Language="C#" Value="public bool async { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool async" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.async" />
+      <MemberSignature Language="VB.NET" Value="Public Property async As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool async { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.async</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="attributes">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNamedNodeMap attributes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNamedNodeMap attributes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.attributes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property attributes As IXMLDOMNamedNodeMap" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNamedNodeMap ^ attributes { Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNamedNodeMap ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.attributes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.attributes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.attributes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.attributes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.attributes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.attributes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment.attributes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.attributes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.attributes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference.attributes</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNamedNodeMap</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="baseName">
+      <MemberSignature Language="C#" Value="public string baseName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string baseName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.baseName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property baseName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ baseName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.baseName</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.baseName</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.baseName</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.baseName</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.baseName</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.baseName</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment.baseName</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.baseName</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.baseName</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference.baseName</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="childNodes">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeList childNodes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeList childNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.childNodes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property childNodes As DOMNodeList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::InfoPath::SemiTrust::DOMNodeList ^ childNodes { Microsoft::Office::Interop::InfoPath::SemiTrust::DOMNodeList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.childNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.childNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.childNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.childNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.childNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.childNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment.childNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.childNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.childNodes</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference.childNodes</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="cloneNode">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode cloneNode (bool deep);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode cloneNode(bool deep) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.cloneNode(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function cloneNode (deep As Boolean) As IXMLDOMNode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ cloneNode(bool deep);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.cloneNode(System.Boolean)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.cloneNode(System.Boolean)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.cloneNode(System.Boolean)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.cloneNode(System.Boolean)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.cloneNode(System.Boolean)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.cloneNode(System.Boolean)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment.cloneNode(System.Boolean)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.cloneNode(System.Boolean)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.cloneNode(System.Boolean)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference.cloneNode(System.Boolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="deep" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="deep">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="createAttribute">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute createAttribute (string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute createAttribute(string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.createAttribute(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function createAttribute (name As String) As IXMLDOMAttribute" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMAttribute ^ createAttribute(System::String ^ name);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.createAttribute(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="createCDATASection">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection createCDATASection (string data);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection createCDATASection(string data) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.createCDATASection(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function createCDATASection (data As String) As IXMLDOMCDATASection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMCDATASection ^ createCDATASection(System::String ^ data);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.createCDATASection(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="data">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="createComment">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment createComment (string data);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment createComment(string data) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.createComment(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function createComment (data As String) As IXMLDOMComment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMComment ^ createComment(System::String ^ data);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.createComment(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="data">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="createDocumentFragment">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment createDocumentFragment ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment createDocumentFragment() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.createDocumentFragment" />
+      <MemberSignature Language="VB.NET" Value="Public Function createDocumentFragment () As IXMLDOMDocumentFragment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMDocumentFragment ^ createDocumentFragment();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.createDocumentFragment</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="createElement">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement createElement (string tagName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement createElement(string tagName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.createElement(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function createElement (tagName As String) As IXMLDOMElement" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMElement ^ createElement(System::String ^ tagName);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.createElement(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tagName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="tagName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="createEntityReference">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference createEntityReference (string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference createEntityReference(string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.createEntityReference(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function createEntityReference (name As String) As IXMLDOMEntityReference" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMEntityReference ^ createEntityReference(System::String ^ name);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.createEntityReference(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="createNode">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode createNode (object Type, string name, string namespaceURI);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode createNode(object Type, string name, string namespaceURI) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.createNode(System.Object,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function createNode (Type As Object, name As String, namespaceURI As String) As IXMLDOMNode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ createNode(System::Object ^ Type, System::String ^ name, System::String ^ namespaceURI);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.createNode(System.Object,System.String,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Type" Type="System.Object" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="namespaceURI" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Type">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="namespaceURI">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="createProcessingInstruction">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction createProcessingInstruction (string target, string data);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction createProcessingInstruction(string target, string data) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.createProcessingInstruction(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function createProcessingInstruction (target As String, data As String) As IXMLDOMProcessingInstruction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMProcessingInstruction ^ createProcessingInstruction(System::String ^ target, System::String ^ data);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.createProcessingInstruction(System.String,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="System.String" />
+        <Parameter Name="data" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="data">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="createTextNode">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMText createTextNode (string data);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMText createTextNode(string data) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.createTextNode(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function createTextNode (data As String) As IXMLDOMText" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMText ^ createTextNode(System::String ^ data);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.createTextNode(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMText</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="data">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="data">
+      <MemberSignature Language="C#" Value="public string data { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string data" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.data" />
+      <MemberSignature Language="VB.NET" Value="Public Property data As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ data { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.data</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.data</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.data</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="dataType">
+      <MemberSignature Language="C#" Value="public object dataType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object dataType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.dataType" />
+      <MemberSignature Language="VB.NET" Value="Public Property dataType As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ dataType { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.dataType</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.dataType</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.dataType</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.dataType</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.dataType</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.dataType</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment.dataType</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.dataType</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.dataType</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference.dataType</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="definition">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode definition { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode definition" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.definition" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property definition As IXMLDOMNode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ definition { Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.definition</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.definition</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.definition</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.definition</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.definition</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.definition</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment.definition</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.definition</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.definition</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference.definition</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="deleteData">
+      <MemberSignature Language="C#" Value="public void deleteData (int offset, int count);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void deleteData(int32 offset, int32 count) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.deleteData(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub deleteData (offset As Integer, count As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void deleteData(int offset, int count);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.deleteData(System.Int32,System.Int32)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.deleteData(System.Int32,System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="offset" Type="System.Int32" />
+        <Parameter Name="count" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="offset">To be added.</param>
+        <param name="count">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="doctype">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType doctype { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType doctype" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.doctype" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property doctype As IXMLDOMDocumentType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMDocumentType ^ doctype { Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMDocumentType ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.doctype</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="documentElement">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement documentElement { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement documentElement" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.documentElement" />
+      <MemberSignature Language="VB.NET" Value="Public Property documentElement As IXMLDOMElement" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMElement ^ documentElement { Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMElement ^ get(); void set(Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMElement ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.documentElement</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="entities">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNamedNodeMap entities { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNamedNodeMap entities" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.entities" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property entities As IXMLDOMNamedNodeMap" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNamedNodeMap ^ entities { Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNamedNodeMap ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.entities</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNamedNodeMap</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~DOMNodeWrapper ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.Finalize" />
+      <MemberSignature Language="VB.NET" Value="Finalize ()" />
+      <MemberSignature Language="C++ CLI" Value="!DOMNodeWrapper ()" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="firstChild">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode firstChild { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode firstChild" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.firstChild" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property firstChild As IXMLDOMNode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ firstChild { Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.firstChild</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.firstChild</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.firstChild</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.firstChild</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.firstChild</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.firstChild</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment.firstChild</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.firstChild</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.firstChild</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference.firstChild</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="getAttribute">
+      <MemberSignature Language="C#" Value="public object getAttribute (string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object getAttribute(string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.getAttribute(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function getAttribute (name As String) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ getAttribute(System::String ^ name);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.getAttribute(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="getAttributeNode">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute getAttributeNode (string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute getAttributeNode(string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.getAttributeNode(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function getAttributeNode (name As String) As IXMLDOMAttribute" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMAttribute ^ getAttributeNode(System::String ^ name);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.getAttributeNode(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="getElementsByTagName">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeList getElementsByTagName (string tagName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeList getElementsByTagName(string tagName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.getElementsByTagName(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function getElementsByTagName (tagName As String) As DOMNodeList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::SemiTrust::DOMNodeList ^ getElementsByTagName(System::String ^ tagName);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.getElementsByTagName(System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.getElementsByTagName(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeList</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tagName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="tagName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="getProperty">
+      <MemberSignature Language="C#" Value="public object getProperty (string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object getProperty(string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.getProperty(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function getProperty (name As String) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ getProperty(System::String ^ name);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.getProperty(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="hasChildNodes">
+      <MemberSignature Language="C#" Value="public bool hasChildNodes ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool hasChildNodes() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.hasChildNodes" />
+      <MemberSignature Language="VB.NET" Value="Public Function hasChildNodes () As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool hasChildNodes();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.hasChildNodes</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.hasChildNodes</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.hasChildNodes</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.hasChildNodes</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.hasChildNodes</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.hasChildNodes</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment.hasChildNodes</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.hasChildNodes</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.hasChildNodes</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference.hasChildNodes</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="hasFeature">
+      <MemberSignature Language="C#" Value="public bool hasFeature (string feature, string version);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool hasFeature(string feature, string version) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.hasFeature(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function hasFeature (feature As String, version As String) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool hasFeature(System::String ^ feature, System::String ^ version);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMImplementation.hasFeature(System.String,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="feature" Type="System.String" />
+        <Parameter Name="version" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="feature">To be added.</param>
+        <param name="version">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="implementation">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMImplementation implementation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMImplementation implementation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.implementation" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property implementation As IXMLDOMImplementation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMImplementation ^ implementation { Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMImplementation ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.implementation</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMImplementation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="importNode">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode importNode (Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode node, bool deep);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode importNode(class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode node, bool deep) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.importNode(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function importNode (node As IXMLDOMNode, deep As Boolean) As IXMLDOMNode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ importNode(Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ node, bool deep);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.importNode(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,System.Boolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="node" Type="Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode" />
+        <Parameter Name="deep" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="node">To be added.</param>
+        <param name="deep">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="insertBefore">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode insertBefore (Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode newChild, object refChild);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode insertBefore(class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode newChild, object refChild) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.insertBefore(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function insertBefore (newChild As IXMLDOMNode, refChild As Object) As IXMLDOMNode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ insertBefore(Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ newChild, System::Object ^ refChild);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.insertBefore(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,System.Object)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.insertBefore(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,System.Object)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.insertBefore(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,System.Object)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.insertBefore(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,System.Object)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.insertBefore(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,System.Object)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.insertBefore(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,System.Object)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment.insertBefore(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,System.Object)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.insertBefore(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,System.Object)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.insertBefore(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,System.Object)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference.insertBefore(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="newChild" Type="Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode" />
+        <Parameter Name="refChild" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="newChild">To be added.</param>
+        <param name="refChild">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="insertData">
+      <MemberSignature Language="C#" Value="public void insertData (int offset, string data);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void insertData(int32 offset, string data) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.insertData(System.Int32,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub insertData (offset As Integer, data As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void insertData(int offset, System::String ^ data);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.insertData(System.Int32,System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.insertData(System.Int32,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="offset" Type="System.Int32" />
+        <Parameter Name="data" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="offset">To be added.</param>
+        <param name="data">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="lastChild">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode lastChild { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode lastChild" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.lastChild" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property lastChild As IXMLDOMNode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ lastChild { Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.lastChild</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.lastChild</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.lastChild</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.lastChild</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.lastChild</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.lastChild</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment.lastChild</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.lastChild</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.lastChild</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference.lastChild</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="length">
+      <MemberSignature Language="C#" Value="public int length { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 length" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.length" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property length As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int length { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.length</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.length</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="load">
+      <MemberSignature Language="C#" Value="public bool load (object xmlSource);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool load(object xmlSource) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.load(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function load (xmlSource As Object) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool load(System::Object ^ xmlSource);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.load(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="xmlSource" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="xmlSource">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="loadXML">
+      <MemberSignature Language="C#" Value="public bool loadXML (string bstrXML);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool loadXML(string bstrXML) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.loadXML(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function loadXML (bstrXML As String) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool loadXML(System::String ^ bstrXML);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.loadXML(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrXML" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrXML">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="name">
+      <MemberSignature Language="C#" Value="public string name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ name { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.name</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.name</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="namespaces">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.XMLSchemaCache namespaces { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.SemiTrust.XMLSchemaCache namespaces" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.namespaces" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property namespaces As XMLSchemaCache" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::InfoPath::SemiTrust::XMLSchemaCache ^ namespaces { Microsoft::Office::Interop::InfoPath::SemiTrust::XMLSchemaCache ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.namespaces</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.XMLSchemaCache</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="namespaceURI">
+      <MemberSignature Language="C#" Value="public string namespaceURI { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string namespaceURI" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.namespaceURI" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property namespaceURI As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ namespaceURI { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.namespaceURI</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.namespaceURI</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.namespaceURI</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.namespaceURI</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.namespaceURI</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.namespaceURI</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment.namespaceURI</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.namespaceURI</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.namespaceURI</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference.namespaceURI</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="nextSibling">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode nextSibling { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode nextSibling" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.nextSibling" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property nextSibling As IXMLDOMNode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ nextSibling { Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.nextSibling</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.nextSibling</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.nextSibling</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.nextSibling</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.nextSibling</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.nextSibling</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment.nextSibling</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.nextSibling</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.nextSibling</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference.nextSibling</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="nodeFromID">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode nodeFromID (string idString);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode nodeFromID(string idString) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.nodeFromID(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function nodeFromID (idString As String) As IXMLDOMNode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ nodeFromID(System::String ^ idString);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.nodeFromID(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="idString" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="idString">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="nodeName">
+      <MemberSignature Language="C#" Value="public string nodeName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string nodeName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.nodeName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property nodeName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ nodeName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.nodeName</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.nodeName</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.nodeName</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.nodeName</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.nodeName</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.nodeName</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment.nodeName</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.nodeName</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.nodeName</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference.nodeName</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="nodeType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeType nodeType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeType nodeType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.nodeType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property nodeType As DOMNodeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::InfoPath::SemiTrust::DOMNodeType nodeType { Microsoft::Office::Interop::InfoPath::SemiTrust::DOMNodeType get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.nodeType</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.nodeType</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.nodeType</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.nodeType</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.nodeType</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.nodeType</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment.nodeType</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.nodeType</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.nodeType</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference.nodeType</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="nodeTypedValue">
+      <MemberSignature Language="C#" Value="public object nodeTypedValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object nodeTypedValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.nodeTypedValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property nodeTypedValue As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ nodeTypedValue { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.nodeTypedValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.nodeTypedValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.nodeTypedValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.nodeTypedValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.nodeTypedValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.nodeTypedValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment.nodeTypedValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.nodeTypedValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.nodeTypedValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference.nodeTypedValue</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="nodeTypeString">
+      <MemberSignature Language="C#" Value="public string nodeTypeString { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string nodeTypeString" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.nodeTypeString" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property nodeTypeString As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ nodeTypeString { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.nodeTypeString</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.nodeTypeString</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.nodeTypeString</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.nodeTypeString</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.nodeTypeString</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.nodeTypeString</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment.nodeTypeString</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.nodeTypeString</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.nodeTypeString</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference.nodeTypeString</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="nodeValue">
+      <MemberSignature Language="C#" Value="public object nodeValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object nodeValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.nodeValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property nodeValue As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ nodeValue { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.nodeValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.nodeValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.nodeValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.nodeValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.nodeValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.nodeValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment.nodeValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.nodeValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.nodeValue</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference.nodeValue</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="normalize">
+      <MemberSignature Language="C#" Value="public void normalize ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void normalize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.normalize" />
+      <MemberSignature Language="VB.NET" Value="Public Sub normalize ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void normalize();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.normalize</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="notationName">
+      <MemberSignature Language="C#" Value="public string notationName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string notationName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.notationName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property notationName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ notationName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.notationName</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="notations">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNamedNodeMap notations { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNamedNodeMap notations" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.notations" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property notations As IXMLDOMNamedNodeMap" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNamedNodeMap ^ notations { Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNamedNodeMap ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.notations</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNamedNodeMap</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ondataavailable">
+      <MemberSignature Language="C#" Value="public object ondataavailable { set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object ondataavailable" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.ondataavailable" />
+      <MemberSignature Language="VB.NET" Value="Public Property ondataavailable As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ondataavailable {  void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.ondataavailable</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="onreadystatechange">
+      <MemberSignature Language="C#" Value="public object onreadystatechange { set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object onreadystatechange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.onreadystatechange" />
+      <MemberSignature Language="VB.NET" Value="Public Property onreadystatechange As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ onreadystatechange {  void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.onreadystatechange</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ontransformnode">
+      <MemberSignature Language="C#" Value="public object ontransformnode { set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object ontransformnode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.ontransformnode" />
+      <MemberSignature Language="VB.NET" Value="Public Property ontransformnode As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ontransformnode {  void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.ontransformnode</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ownerDocument">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument ownerDocument { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument ownerDocument" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.ownerDocument" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ownerDocument As IXMLDOMDocument" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMDocument ^ ownerDocument { Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMDocument ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.ownerDocument</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.ownerDocument</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.ownerDocument</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.ownerDocument</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.ownerDocument</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.ownerDocument</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment.ownerDocument</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.ownerDocument</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.ownerDocument</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference.ownerDocument</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="parentNode">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode parentNode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode parentNode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.parentNode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property parentNode As IXMLDOMNode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ parentNode { Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.parentNode</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.parentNode</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.parentNode</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.parentNode</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.parentNode</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.parentNode</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment.parentNode</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.parentNode</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.parentNode</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference.parentNode</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="parsed">
+      <MemberSignature Language="C#" Value="public bool parsed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool parsed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.parsed" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property parsed As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool parsed { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.parsed</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.parsed</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.parsed</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.parsed</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.parsed</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.parsed</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment.parsed</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.parsed</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.parsed</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference.parsed</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="parseError">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMParseError parseError { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMParseError parseError" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.parseError" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property parseError As IXMLDOMParseError" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMParseError ^ parseError { Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMParseError ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.parseError</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMParseError</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="prefix">
+      <MemberSignature Language="C#" Value="public string prefix { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string prefix" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.prefix" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property prefix As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ prefix { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.prefix</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.prefix</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.prefix</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.prefix</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.prefix</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.prefix</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment.prefix</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.prefix</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.prefix</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference.prefix</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="preserveWhiteSpace">
+      <MemberSignature Language="C#" Value="public bool preserveWhiteSpace { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool preserveWhiteSpace" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.preserveWhiteSpace" />
+      <MemberSignature Language="VB.NET" Value="Public Property preserveWhiteSpace As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool preserveWhiteSpace { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.preserveWhiteSpace</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="previousSibling">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode previousSibling { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode previousSibling" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.previousSibling" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property previousSibling As IXMLDOMNode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ previousSibling { Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.previousSibling</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.previousSibling</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.previousSibling</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.previousSibling</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.previousSibling</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.previousSibling</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment.previousSibling</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.previousSibling</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.previousSibling</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference.previousSibling</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="publicId">
+      <MemberSignature Language="C#" Value="public object publicId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object publicId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.publicId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property publicId As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ publicId { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.publicId</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="readyState">
+      <MemberSignature Language="C#" Value="public int readyState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 readyState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.readyState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property readyState As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int readyState { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.readyState</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="removeAttribute">
+      <MemberSignature Language="C#" Value="public void removeAttribute (string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void removeAttribute(string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.removeAttribute(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub removeAttribute (name As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void removeAttribute(System::String ^ name);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.removeAttribute(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="removeAttributeNode">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute removeAttributeNode (Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute attribute);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute removeAttributeNode(class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute attribute) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.removeAttributeNode(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute)" />
+      <MemberSignature Language="VB.NET" Value="Public Function removeAttributeNode (attribute As IXMLDOMAttribute) As IXMLDOMAttribute" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMAttribute ^ removeAttributeNode(Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMAttribute ^ attribute);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.removeAttributeNode(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="attribute" Type="Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute" />
+      </Parameters>
+      <Docs>
+        <param name="attribute">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="removeChild">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode removeChild (Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode childNode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode removeChild(class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode childNode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.removeChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)" />
+      <MemberSignature Language="VB.NET" Value="Public Function removeChild (childNode As IXMLDOMNode) As IXMLDOMNode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ removeChild(Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ childNode);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.removeChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.removeChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.removeChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.removeChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.removeChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.removeChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment.removeChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.removeChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.removeChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference.removeChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="childNode" Type="Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode" />
+      </Parameters>
+      <Docs>
+        <param name="childNode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="replaceChild">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode replaceChild (Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode newChild, Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode oldChild);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode replaceChild(class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode newChild, class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode oldChild) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.replaceChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)" />
+      <MemberSignature Language="VB.NET" Value="Public Function replaceChild (newChild As IXMLDOMNode, oldChild As IXMLDOMNode) As IXMLDOMNode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ replaceChild(Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ newChild, Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ oldChild);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.replaceChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.replaceChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.replaceChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.replaceChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.replaceChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.replaceChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment.replaceChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.replaceChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.replaceChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference.replaceChild(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="newChild" Type="Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode" />
+        <Parameter Name="oldChild" Type="Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode" />
+      </Parameters>
+      <Docs>
+        <param name="newChild">To be added.</param>
+        <param name="oldChild">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="replaceData">
+      <MemberSignature Language="C#" Value="public void replaceData (int offset, int count, string data);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void replaceData(int32 offset, int32 count, string data) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.replaceData(System.Int32,System.Int32,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub replaceData (offset As Integer, count As Integer, data As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void replaceData(int offset, int count, System::String ^ data);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.replaceData(System.Int32,System.Int32,System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.replaceData(System.Int32,System.Int32,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="offset" Type="System.Int32" />
+        <Parameter Name="count" Type="System.Int32" />
+        <Parameter Name="data" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="offset">To be added.</param>
+        <param name="count">To be added.</param>
+        <param name="data">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="resolveExternals">
+      <MemberSignature Language="C#" Value="public bool resolveExternals { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool resolveExternals" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.resolveExternals" />
+      <MemberSignature Language="VB.NET" Value="Public Property resolveExternals As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool resolveExternals { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.resolveExternals</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="save">
+      <MemberSignature Language="C#" Value="public void save (object destination);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void save(object destination) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.save(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub save (destination As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void save(System::Object ^ destination);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.save(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destination" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="destination">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="schemas">
+      <MemberSignature Language="C#" Value="public object schemas { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object schemas" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.schemas" />
+      <MemberSignature Language="VB.NET" Value="Public Property schemas As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ schemas { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.schemas</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="selectNodes">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeList selectNodes (string queryString);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeList selectNodes(string queryString) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.selectNodes(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function selectNodes (queryString As String) As DOMNodeList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::SemiTrust::DOMNodeList ^ selectNodes(System::String ^ queryString);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.selectNodes(System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.selectNodes(System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.selectNodes(System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.selectNodes(System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.selectNodes(System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.selectNodes(System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment.selectNodes(System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.selectNodes(System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.selectNodes(System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference.selectNodes(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeList</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="queryString" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="queryString">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="selectSingleNode">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode selectSingleNode (string queryString);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode selectSingleNode(string queryString) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.selectSingleNode(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function selectSingleNode (queryString As String) As IXMLDOMNode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ selectSingleNode(System::String ^ queryString);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.selectSingleNode(System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.selectSingleNode(System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.selectSingleNode(System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.selectSingleNode(System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.selectSingleNode(System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.selectSingleNode(System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment.selectSingleNode(System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.selectSingleNode(System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.selectSingleNode(System.String)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference.selectSingleNode(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="queryString" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="queryString">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="setAttribute">
+      <MemberSignature Language="C#" Value="public void setAttribute (string name, object value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void setAttribute(string name, object value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.setAttribute(System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub setAttribute (name As String, value As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void setAttribute(System::String ^ name, System::Object ^ value);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.setAttribute(System.String,System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="value" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="setAttributeNode">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute setAttributeNode (Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute attribute);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute setAttributeNode(class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute attribute) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.setAttributeNode(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute)" />
+      <MemberSignature Language="VB.NET" Value="Public Function setAttributeNode (attribute As IXMLDOMAttribute) As IXMLDOMAttribute" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMAttribute ^ setAttributeNode(Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMAttribute ^ attribute);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.setAttributeNode(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="attribute" Type="Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute" />
+      </Parameters>
+      <Docs>
+        <param name="attribute">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="setProperty">
+      <MemberSignature Language="C#" Value="public void setProperty (string name, object value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void setProperty(string name, object value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.setProperty(System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub setProperty (name As String, value As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void setProperty(System::String ^ name, System::Object ^ value);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.setProperty(System.String,System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="value" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="specified">
+      <MemberSignature Language="C#" Value="public bool specified { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool specified" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.specified" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property specified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool specified { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.specified</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.specified</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.specified</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.specified</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.specified</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.specified</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment.specified</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.specified</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.specified</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference.specified</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="splitText">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMText splitText (int offset);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMText splitText(int32 offset) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.splitText(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function splitText (offset As Integer) As IXMLDOMText" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMText ^ splitText(int offset);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.splitText(System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMText</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="offset" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="offset">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="substringData">
+      <MemberSignature Language="C#" Value="public string substringData (int offset, int count);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string substringData(int32 offset, int32 count) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.substringData(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function substringData (offset As Integer, count As Integer) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ substringData(int offset, int count);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.substringData(System.Int32,System.Int32)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.substringData(System.Int32,System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="offset" Type="System.Int32" />
+        <Parameter Name="count" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="offset">To be added.</param>
+        <param name="count">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="systemId">
+      <MemberSignature Language="C#" Value="public object systemId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object systemId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.systemId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property systemId As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ systemId { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.systemId</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="tagName">
+      <MemberSignature Language="C#" Value="public string tagName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string tagName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.tagName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property tagName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ tagName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.tagName</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="target">
+      <MemberSignature Language="C#" Value="public string target { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string target" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.target" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property target As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ target { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.target</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="text">
+      <MemberSignature Language="C#" Value="public string text { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string text" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.text" />
+      <MemberSignature Language="VB.NET" Value="Public Property text As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ text { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.text</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.text</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.text</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.text</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.text</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.text</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment.text</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.text</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.text</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference.text</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="transformNode">
+      <MemberSignature Language="C#" Value="public string transformNode (Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode stylesheet);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string transformNode(class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode stylesheet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.transformNode(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)" />
+      <MemberSignature Language="VB.NET" Value="Public Function transformNode (stylesheet As IXMLDOMNode) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ transformNode(Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ stylesheet);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.transformNode(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.transformNode(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.transformNode(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.transformNode(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.transformNode(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.transformNode(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment.transformNode(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.transformNode(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.transformNode(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference.transformNode(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="stylesheet" Type="Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode" />
+      </Parameters>
+      <Docs>
+        <param name="stylesheet">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="transformNodeToObject">
+      <MemberSignature Language="C#" Value="public void transformNodeToObject (Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode stylesheet, object outputObject);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void transformNodeToObject(class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode stylesheet, object outputObject) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.transformNodeToObject(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub transformNodeToObject (stylesheet As IXMLDOMNode, outputObject As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void transformNodeToObject(Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ stylesheet, System::Object ^ outputObject);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.transformNodeToObject(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,System.Object)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.transformNodeToObject(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,System.Object)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.transformNodeToObject(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,System.Object)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.transformNodeToObject(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,System.Object)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.transformNodeToObject(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,System.Object)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.transformNodeToObject(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,System.Object)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment.transformNodeToObject(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,System.Object)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.transformNodeToObject(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,System.Object)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.transformNodeToObject(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,System.Object)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference.transformNodeToObject(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode,System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="stylesheet" Type="Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode" />
+        <Parameter Name="outputObject" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="stylesheet">To be added.</param>
+        <param name="outputObject">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="url">
+      <MemberSignature Language="C#" Value="public string url { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string url" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.url" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property url As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ url { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.url</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="validate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMParseError validate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMParseError validate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.validate" />
+      <MemberSignature Language="VB.NET" Value="Public Function validate () As IXMLDOMParseError" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMParseError ^ validate();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.validate</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMParseError</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="validateNode">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMParseError validateNode (Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode node);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMParseError validateNode(class Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode node) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.validateNode(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)" />
+      <MemberSignature Language="VB.NET" Value="Public Function validateNode (node As IXMLDOMNode) As IXMLDOMParseError" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMParseError ^ validateNode(Microsoft::Office::Interop::InfoPath::SemiTrust::IXMLDOMNode ^ node);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.validateNode(Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMParseError</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="node" Type="Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMNode" />
+      </Parameters>
+      <Docs>
+        <param name="node">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="validateOnParse">
+      <MemberSignature Language="C#" Value="public bool validateOnParse { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool validateOnParse" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.validateOnParse" />
+      <MemberSignature Language="VB.NET" Value="Public Property validateOnParse As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool validateOnParse { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.validateOnParse</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="value">
+      <MemberSignature Language="C#" Value="public object value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.value" />
+      <MemberSignature Language="VB.NET" Value="Public Property value As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ value { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.value</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="xml">
+      <MemberSignature Language="C#" Value="public string xml { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string xml" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SemiTrust.DOMNodeWrapper.xml" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property xml As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ xml { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument3.xml</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMElement.xml</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMCDATASection.xml</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMAttribute.xml</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMComment.xml</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMProcessingInstruction.xml</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentFragment.xml</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocumentType.xml</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntity.xml</InterfaceMember>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMEntityReference.xml</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,363 @@
+<Overview>
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="526fb9c04c763fa1a0a58b3a5e402da4b985de36" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20568152" />
+  </Metadata>
+  <Assemblies>
+    <Assembly Name="Microsoft.Office.Interop.InfoPath.SemiTrust" Version="11.0.0.0">
+      <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 af d4 a0 e7 72 41 51 d5 dd 52 cb 23 a3 0d ed 7c 00 91 cc 01 cf e9 4b 2b cd 85 b3 f4 ee e3 c4 d8 f6 41 7b ff 76 37 63 a9 96 d6 b2 df c1 e7 c2 9b cf b8 29 97 79 df 87 85 cd e2 c1 68 ce ee 48 0e 57 07 25 f2 46 8e 78 2a 9c 24 01 30 2c f6 dc 17 e1 19 11 8e d2 01 19 37 ba e9 69 83 57 ad 21 e8 b6 df b4 04 75 d1 6e 87 eb 03 c7 44 a5 d3 28 99 a0 db c5 96 a6 b2 cf a1 e5 09 be 5f bd 09 fa cf ]</AssemblyPublicKey>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCompany("Microsoft Corporation")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyConfiguration("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCopyright("© 2012 Microsoft Corporation.  All rights reserved.")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyDescription("Wrapper classes for COM interop")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyFileVersion("15.0.4420.1017")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyProduct("Microsoft Office InfoPath")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTitle("Microsoft.Office.Interop.InfoPath.SemiTrust")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTrademark("Microsoft® is a registered trademark of Microsoft Corporation. Windows® is a registered trademark of Microsoft Corporation.")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.CompilationRelaxations(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Security.AllowPartiallyTrustedCallers</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Assembly>
+    <Assembly Name="Microsoft.Office.Interop.InfoPath.Xml" Version="15.0.0.0">
+      <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 af d4 a0 e7 72 41 51 d5 dd 52 cb 23 a3 0d ed 7c 00 91 cc 01 cf e9 4b 2b cd 85 b3 f4 ee e3 c4 d8 f6 41 7b ff 76 37 63 a9 96 d6 b2 df c1 e7 c2 9b cf b8 29 97 79 df 87 85 cd e2 c1 68 ce ee 48 0e 57 07 25 f2 46 8e 78 2a 9c 24 01 30 2c f6 dc 17 e1 19 11 8e d2 01 19 37 ba e9 69 83 57 ad 21 e8 b6 df b4 04 75 d1 6e 87 eb 03 c7 44 a5 d3 28 99 a0 db c5 96 a6 b2 cf a1 e5 09 be 5f bd 09 fa cf ]</AssemblyPublicKey>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.Guid("f5078f18-c551-11d3-89b9-0000f81fe221")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ImportedFromTypeLib("MSXML2")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.PrimaryInteropAssembly(5, 0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibVersion(5, 0)</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Assembly>
+  </Assemblies>
+  <Remarks>To be added.</Remarks>
+  <Copyright>To be added.</Copyright>
+  <Types>
+    <Namespace Name="Microsoft.Office.Interop.InfoPath.Helper">
+      <Type Name="WrapperBase" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Office.Interop.InfoPath.SemiTrust">
+      <Type Name="_Application" Kind="Interface" />
+      <Type Name="_Application2" Kind="Interface" />
+      <Type Name="_Application3" Kind="Interface" />
+      <Type Name="_ButtonEventSink" Kind="Interface" />
+      <Type Name="_ButtonEventSink_Event" Kind="Interface" />
+      <Type Name="_ButtonEventSink_OnClickEventHandler" Kind="Delegate" />
+      <Type Name="_ButtonEventSink_SinkHelper" Kind="Class" />
+      <Type Name="_DataDOMEventSink" Kind="Interface" />
+      <Type Name="_DataDOMEventSink_Event" Kind="Interface" />
+      <Type Name="_DataDOMEventSink_OnAfterChangeEventHandler" Kind="Delegate" />
+      <Type Name="_DataDOMEventSink_OnBeforeChangeEventHandler" Kind="Delegate" />
+      <Type Name="_DataDOMEventSink_OnValidateEventHandler" Kind="Delegate" />
+      <Type Name="_DataDOMEventSink_SinkHelper" Kind="Class" />
+      <Type Name="_ExternalApplication" Kind="Interface" />
+      <Type Name="_ExternalApplication2" Kind="Interface" />
+      <Type Name="_NetworkState" Kind="Interface" />
+      <Type Name="_XDocument" Kind="Interface" />
+      <Type Name="_XDocument2" Kind="Interface" />
+      <Type Name="_XDocument3" Kind="Interface" />
+      <Type Name="_XDocument4" Kind="Interface" />
+      <Type Name="_XDocumentEventSink" Kind="Interface" />
+      <Type Name="_XDocumentEventSink2" Kind="Interface" />
+      <Type Name="_XDocumentEventSink2_Event" Kind="Interface" />
+      <Type Name="_XDocumentEventSink2_OnAfterImportEventHandler" Kind="Delegate" />
+      <Type Name="_XDocumentEventSink2_OnContextChangeEventHandler" Kind="Delegate" />
+      <Type Name="_XDocumentEventSink2_OnLoadEventHandler" Kind="Delegate" />
+      <Type Name="_XDocumentEventSink2_OnMergeRequestEventHandler" Kind="Delegate" />
+      <Type Name="_XDocumentEventSink2_OnSaveRequestEventHandler" Kind="Delegate" />
+      <Type Name="_XDocumentEventSink2_OnSignEventHandler" Kind="Delegate" />
+      <Type Name="_XDocumentEventSink2_OnSubmitRequestEventHandler" Kind="Delegate" />
+      <Type Name="_XDocumentEventSink2_OnSwitchViewEventHandler" Kind="Delegate" />
+      <Type Name="_XDocumentEventSink2_OnVersionUpgradeEventHandler" Kind="Delegate" />
+      <Type Name="_XDocumentEventSink2_SinkHelper" Kind="Class" />
+      <Type Name="ADOAdapter" Kind="Interface" />
+      <Type Name="ADOAdapter2" Kind="Interface" />
+      <Type Name="ADOAdapterObject" Kind="Interface" />
+      <Type Name="Application" Kind="Interface" />
+      <Type Name="ApplicationEvents" Kind="Interface" />
+      <Type Name="ApplicationEventsEmpty" Kind="Interface" />
+      <Type Name="BDCAdapter" Kind="Interface" />
+      <Type Name="BDCAdapterObject" Kind="Interface" />
+      <Type Name="Button" Kind="Interface" />
+      <Type Name="ButtonEmpty" Kind="Interface" />
+      <Type Name="Certificate" Kind="Interface" />
+      <Type Name="CertificateObject" Kind="Interface" />
+      <Type Name="DataAdapters" Kind="Interface" />
+      <Type Name="DataAdaptersCollection" Kind="Interface" />
+      <Type Name="DataAdaptersEnumerator" Kind="Class" />
+      <Type Name="DataDOM" Kind="Interface" />
+      <Type Name="DataDOMEmpty" Kind="Interface" />
+      <Type Name="DataDOMEvent" Kind="Interface" />
+      <Type Name="DataDOMEventObject" Kind="Interface" />
+      <Type Name="DataObject" Kind="Interface" />
+      <Type Name="DataObjects" Kind="Interface" />
+      <Type Name="DataObjectsCollection" Kind="Interface" />
+      <Type Name="DataObjectsEnumerator" Kind="Class" />
+      <Type Name="DataSourceObject" Kind="Interface" />
+      <Type Name="Date" Kind="Interface" />
+      <Type Name="DateObject" Kind="Interface" />
+      <Type Name="DAVAdapter" Kind="Interface" />
+      <Type Name="DAVAdapterObject" Kind="Interface" />
+      <Type Name="DocActionEvent" Kind="Interface" />
+      <Type Name="DocActionEventObject" Kind="Interface" />
+      <Type Name="DocContextChangeEvent" Kind="Interface" />
+      <Type Name="DocContextChangeEventObject" Kind="Interface" />
+      <Type Name="DocEvent" Kind="Interface" />
+      <Type Name="DocEventObject" Kind="Interface" />
+      <Type Name="DocReturnEvent" Kind="Interface" />
+      <Type Name="DocReturnEventObject" Kind="Interface" />
+      <Type Name="DOMDocument50" Kind="Interface" />
+      <Type Name="DOMNode" Kind="Interface" />
+      <Type Name="DOMNodeList" Kind="Interface" />
+      <Type Name="DOMNodeType" Kind="Enumeration" />
+      <Type Name="DOMNodeWrapper" Kind="Class" />
+      <Type Name="EmailAdapter" Kind="Interface" />
+      <Type Name="EmailAdapterObject" Kind="Interface" />
+      <Type Name="Error" Kind="Interface" />
+      <Type Name="ErrorObject" Kind="Interface" />
+      <Type Name="Errors" Kind="Interface" />
+      <Type Name="ErrorsCollection" Kind="Interface" />
+      <Type Name="ErrorsEnumerator" Kind="Class" />
+      <Type Name="ExternalApplication" Kind="Interface" />
+      <Type Name="HTMLTaskPane" Kind="Interface" />
+      <Type Name="HTMLTaskPaneExternal" Kind="Interface" />
+      <Type Name="HTMLTaskPaneObject" Kind="Interface" />
+      <Type Name="HWSAdapter" Kind="Interface" />
+      <Type Name="HWSAdapterObject" Kind="Interface" />
+      <Type Name="IDataAdapterMOM" Kind="Interface" />
+      <Type Name="InfoPathEventHandlerAttribute" Kind="Class" />
+      <Type Name="InfoPathEventType" Kind="Enumeration" />
+      <Type Name="InfoPathNamespaceAttribute" Kind="Class" />
+      <Type Name="InfoPathOMHelper" Kind="Class" />
+      <Type Name="InputParameter" Kind="Interface" />
+      <Type Name="InputParameterCollection" Kind="Interface" />
+      <Type Name="InputParameterObject" Kind="Interface" />
+      <Type Name="InputParameters" Kind="Interface" />
+      <Type Name="InputParametersEnumerator" Kind="Class" />
+      <Type Name="IPMath" Kind="Interface" />
+      <Type Name="IXMLDOMAttribute" Kind="Interface" />
+      <Type Name="IXMLDOMCDATASection" Kind="Interface" />
+      <Type Name="IXMLDOMCharacterData" Kind="Interface" />
+      <Type Name="IXMLDOMComment" Kind="Interface" />
+      <Type Name="IXMLDOMDocument" Kind="Interface" />
+      <Type Name="IXMLDOMDocument2" Kind="Interface" />
+      <Type Name="IXMLDOMDocument3" Kind="Interface" />
+      <Type Name="IXMLDOMDocumentFragment" Kind="Interface" />
+      <Type Name="IXMLDOMDocumentType" Kind="Interface" />
+      <Type Name="IXMLDOMElement" Kind="Interface" />
+      <Type Name="IXMLDOMEntity" Kind="Interface" />
+      <Type Name="IXMLDOMEntityReference" Kind="Interface" />
+      <Type Name="IXMLDOMImplementation" Kind="Interface" />
+      <Type Name="IXMLDOMNamedNodeMap" Kind="Interface" />
+      <Type Name="IXMLDOMNamedNodeMapEnumerator" Kind="Class" />
+      <Type Name="IXMLDOMNode" Kind="Interface" />
+      <Type Name="IXMLDOMNodeList" Kind="Interface" />
+      <Type Name="IXMLDOMNodeListEnumerator" Kind="Class" />
+      <Type Name="IXMLDOMNotation" Kind="Interface" />
+      <Type Name="IXMLDOMParseError" Kind="Interface" />
+      <Type Name="IXMLDOMParseError2" Kind="Interface" />
+      <Type Name="IXMLDOMParseErrorCollection" Kind="Interface" />
+      <Type Name="IXMLDOMParseErrorCollectionEnumerator" Kind="Class" />
+      <Type Name="IXMLDOMProcessingInstruction" Kind="Interface" />
+      <Type Name="IXMLDOMSchemaCollection" Kind="Interface" />
+      <Type Name="IXMLDOMSchemaCollectionEnumerator" Kind="Class" />
+      <Type Name="IXMLDOMSelection" Kind="Interface" />
+      <Type Name="IXMLDOMText" Kind="Interface" />
+      <Type Name="IXSLProcessor" Kind="Interface" />
+      <Type Name="IXSLTemplate" Kind="Interface" />
+      <Type Name="IXTLRuntime" Kind="Interface" />
+      <Type Name="MailEnvelope" Kind="Interface" />
+      <Type Name="MailEnvelope2" Kind="Interface" />
+      <Type Name="MailEnvelopeObject" Kind="Interface" />
+      <Type Name="MathObject" Kind="Interface" />
+      <Type Name="MergeEvent" Kind="Interface" />
+      <Type Name="MergeEventObject" Kind="Interface" />
+      <Type Name="ObjectWrapper" Kind="Class" />
+      <Type Name="Permission" Kind="Interface" />
+      <Type Name="PermissionEnumerator" Kind="Class" />
+      <Type Name="PermissionObject" Kind="Interface" />
+      <Type Name="SaveEvent" Kind="Interface" />
+      <Type Name="SaveEventObject" Kind="Interface" />
+      <Type Name="ServerInfo" Kind="Interface" />
+      <Type Name="ServerInfoObject" Kind="Interface" />
+      <Type Name="SharepointListAdapter" Kind="Interface" />
+      <Type Name="SharepointListAdapter2" Kind="Interface" />
+      <Type Name="SharepointListAdapterObject" Kind="Interface" />
+      <Type Name="SharePointListAdapterRW" Kind="Interface" />
+      <Type Name="SharePointListAdapterRWObject" Kind="Interface" />
+      <Type Name="Signature" Kind="Interface" />
+      <Type Name="SignatureLine" Kind="Interface" />
+      <Type Name="SignatureLineObject" Kind="Interface" />
+      <Type Name="SignatureLines" Kind="Interface" />
+      <Type Name="SignatureLinesCollection" Kind="Interface" />
+      <Type Name="SignatureLinesEnumerator" Kind="Class" />
+      <Type Name="SignatureObject" Kind="Interface" />
+      <Type Name="Signatures" Kind="Interface" />
+      <Type Name="SignaturesCollection" Kind="Interface" />
+      <Type Name="SignaturesEnumerator" Kind="Class" />
+      <Type Name="SignedDataBlock" Kind="Interface" />
+      <Type Name="SignedDataBlockObject" Kind="Interface" />
+      <Type Name="SignedDataBlocks" Kind="Interface" />
+      <Type Name="SignedDataBlocksCollection" Kind="Interface" />
+      <Type Name="SignedDataBlocksEnumerator" Kind="Class" />
+      <Type Name="SignEvent" Kind="Interface" />
+      <Type Name="SignEventObject" Kind="Interface" />
+      <Type Name="Solution" Kind="Interface" />
+      <Type Name="Solution2" Kind="Interface" />
+      <Type Name="SolutionObject" Kind="Interface" />
+      <Type Name="SubmitToHostAdapter" Kind="Interface" />
+      <Type Name="SubmitToHostAdapterObject" Kind="Interface" />
+      <Type Name="TaskPane" Kind="Interface" />
+      <Type Name="TaskPaneObject" Kind="Interface" />
+      <Type Name="TaskPanes" Kind="Interface" />
+      <Type Name="TaskPanesCollection" Kind="Interface" />
+      <Type Name="TaskPanesEnumerator" Kind="Class" />
+      <Type Name="UI" Kind="Interface" />
+      <Type Name="UI2" Kind="Interface" />
+      <Type Name="UIObject" Kind="Interface" />
+      <Type Name="User" Kind="Interface" />
+      <Type Name="User2" Kind="Interface" />
+      <Type Name="UserObject" Kind="Interface" />
+      <Type Name="UserPermission" Kind="Interface" />
+      <Type Name="UserPermissionObject" Kind="Interface" />
+      <Type Name="Util" Kind="Interface" />
+      <Type Name="UtilObject" Kind="Interface" />
+      <Type Name="VersionUpgradeEvent" Kind="Interface" />
+      <Type Name="VersionUpgradeEventObject" Kind="Interface" />
+      <Type Name="View" Kind="Interface" />
+      <Type Name="View2" Kind="Interface" />
+      <Type Name="View3" Kind="Interface" />
+      <Type Name="ViewInfo" Kind="Interface" />
+      <Type Name="ViewInfo2" Kind="Interface" />
+      <Type Name="ViewInfoObject" Kind="Interface" />
+      <Type Name="ViewInfos" Kind="Interface" />
+      <Type Name="ViewInfosCollection" Kind="Interface" />
+      <Type Name="ViewInfosEnumerator" Kind="Class" />
+      <Type Name="ViewObject" Kind="Interface" />
+      <Type Name="WebServiceAdapter" Kind="Interface" />
+      <Type Name="WebServiceAdapter2" Kind="Interface" />
+      <Type Name="WebServiceAdapterObject" Kind="Interface" />
+      <Type Name="Window" Kind="Interface" />
+      <Type Name="Window2" Kind="Interface" />
+      <Type Name="WindowObject" Kind="Interface" />
+      <Type Name="Windows" Kind="Interface" />
+      <Type Name="WindowsCollection" Kind="Interface" />
+      <Type Name="WindowsEnumerator" Kind="Class" />
+      <Type Name="XdAttachmentType" Kind="Enumeration" />
+      <Type Name="XdCertificateStatus" Kind="Enumeration" />
+      <Type Name="XdConfirmButtons" Kind="Enumeration" />
+      <Type Name="XdConfirmChoice" Kind="Enumeration" />
+      <Type Name="XdDocumentVersionMode" Kind="Enumeration" />
+      <Type Name="XdMachineOnlineState" Kind="Enumeration" />
+      <Type Name="XDNetworkState" Kind="Interface" />
+      <Type Name="XDocument" Kind="Interface" />
+      <Type Name="XDocuments" Kind="Interface" />
+      <Type Name="XDocuments2" Kind="Interface" />
+      <Type Name="XDocuments3" Kind="Interface" />
+      <Type Name="XDocumentsCollection" Kind="Interface" />
+      <Type Name="XDocumentsEnumerator" Kind="Class" />
+      <Type Name="XdSignatureAppearanceType" Kind="Enumeration" />
+      <Type Name="XdSignatureRelation" Kind="Enumeration" />
+      <Type Name="XdSignatureStatus" Kind="Enumeration" />
+      <Type Name="XdTaskPaneType" Kind="Enumeration" />
+      <Type Name="XdWindowState" Kind="Enumeration" />
+      <Type Name="XdWindowType" Kind="Enumeration" />
+      <Type Name="XMLDOMDocumentEvents" Kind="Interface" />
+      <Type Name="XMLDOMDocumentEvents_Event" Kind="Interface" />
+      <Type Name="XMLDOMDocumentEvents_ondataavailableEventHandler" Kind="Delegate" />
+      <Type Name="XMLDOMDocumentEvents_onreadystatechangeEventHandler" Kind="Delegate" />
+      <Type Name="XMLDOMDocumentEvents_SinkHelper" Kind="Class" />
+      <Type Name="XMLELEM_TYPE" Kind="Enumeration" />
+      <Type Name="XMLFileAdapter" Kind="Interface" />
+      <Type Name="XMLFileAdapter2" Kind="Interface" />
+      <Type Name="XMLFileAdapterObject" Kind="Interface" />
+      <Type Name="XMLNodes" Kind="Interface" />
+      <Type Name="XMLNodesCollection" Kind="Interface" />
+      <Type Name="XMLNodesEnumerator" Kind="Class" />
+      <Type Name="XMLSchemaCache" Kind="Interface" />
+      <Type Name="XSLTemplate" Kind="Interface" />
+    </Namespace>
+    <Namespace Name="Microsoft.Office.Interop.InfoPath.Xml">
+      <Type Name="DOMDocument50" Kind="Interface" />
+      <Type Name="DOMDocument50Class" Kind="Class" />
+      <Type Name="DOMNodeType" Kind="Enumeration" />
+      <Type Name="IXMLDOMAttribute" Kind="Interface" />
+      <Type Name="IXMLDOMCDATASection" Kind="Interface" />
+      <Type Name="IXMLDOMCharacterData" Kind="Interface" />
+      <Type Name="IXMLDOMComment" Kind="Interface" />
+      <Type Name="IXMLDOMDocument" Kind="Interface" />
+      <Type Name="IXMLDOMDocument2" Kind="Interface" />
+      <Type Name="IXMLDOMDocument3" Kind="Interface" />
+      <Type Name="IXMLDOMDocumentFragment" Kind="Interface" />
+      <Type Name="IXMLDOMDocumentType" Kind="Interface" />
+      <Type Name="IXMLDOMElement" Kind="Interface" />
+      <Type Name="IXMLDOMEntity" Kind="Interface" />
+      <Type Name="IXMLDOMEntityReference" Kind="Interface" />
+      <Type Name="IXMLDOMImplementation" Kind="Interface" />
+      <Type Name="IXMLDOMNamedNodeMap" Kind="Interface" />
+      <Type Name="IXMLDOMNode" Kind="Interface" />
+      <Type Name="IXMLDOMNodeList" Kind="Interface" />
+      <Type Name="IXMLDOMNotation" Kind="Interface" />
+      <Type Name="IXMLDOMParseError" Kind="Interface" />
+      <Type Name="IXMLDOMParseError2" Kind="Interface" />
+      <Type Name="IXMLDOMParseErrorCollection" Kind="Interface" />
+      <Type Name="IXMLDOMProcessingInstruction" Kind="Interface" />
+      <Type Name="IXMLDOMSchemaCollection" Kind="Interface" />
+      <Type Name="IXMLDOMSelection" Kind="Interface" />
+      <Type Name="IXMLDOMText" Kind="Interface" />
+      <Type Name="IXSLProcessor" Kind="Interface" />
+      <Type Name="IXSLTemplate" Kind="Interface" />
+      <Type Name="IXTLRuntime" Kind="Interface" />
+      <Type Name="tagDOMNodeType" Kind="Enumeration" />
+      <Type Name="tagXMLELEM_TYPE" Kind="Enumeration" />
+      <Type Name="XMLDOMDocumentEvents" Kind="Interface" />
+      <Type Name="XMLDOMDocumentEvents_Event" Kind="Interface" />
+      <Type Name="XMLDOMDocumentEvents_ondataavailableEventHandler" Kind="Delegate" />
+      <Type Name="XMLDOMDocumentEvents_onreadystatechangeEventHandler" Kind="Delegate" />
+      <Type Name="XMLDOMDocumentEvents_SinkHelper" Kind="Class" />
+      <Type Name="XMLELEM_TYPE" Kind="Enumeration" />
+      <Type Name="XMLSchemaCache" Kind="Interface" />
+      <Type Name="XMLSchemaCacheClass" Kind="Class" />
+      <Type Name="XSLTemplate" Kind="Interface" />
+      <Type Name="XSLTemplateClass" Kind="Class" />
+    </Namespace>
+  </Types>
+  <Title>Untitled</Title>
+</Overview>

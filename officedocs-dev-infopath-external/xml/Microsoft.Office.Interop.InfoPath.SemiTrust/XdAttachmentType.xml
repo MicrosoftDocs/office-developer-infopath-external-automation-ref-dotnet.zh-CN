@@ -1,0 +1,85 @@
+<Type Name="XdAttachmentType" FullName="Microsoft.Office.Interop.InfoPath.SemiTrust.XdAttachmentType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4698be47034c3f2ddfce94f7fdfbfd4489984f91" />
+    <Meta Name="ms.sourcegitcommit" Value="3ed7794d144c1dcbe602012621be568d59e39ad1" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20570812" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XdAttachmentType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XdAttachmentType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SemiTrust.XdAttachmentType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XdAttachmentType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XdAttachmentType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xdNone">
+      <MemberSignature Language="C#" Value="xdNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.SemiTrust.XdAttachmentType xdNone = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.SemiTrust.XdAttachmentType.xdNone" />
+      <MemberSignature Language="VB.NET" Value="xdNone" />
+      <MemberSignature Language="C++ CLI" Value="xdNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.XdAttachmentType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdXml">
+      <MemberSignature Language="C#" Value="xdXml" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.SemiTrust.XdAttachmentType xdXml = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.SemiTrust.XdAttachmentType.xdXml" />
+      <MemberSignature Language="VB.NET" Value="xdXml" />
+      <MemberSignature Language="C++ CLI" Value="xdXml" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.XdAttachmentType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdXmlXsn">
+      <MemberSignature Language="C#" Value="xdXmlXsn" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.SemiTrust.XdAttachmentType xdXmlXsn = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.SemiTrust.XdAttachmentType.xdXmlXsn" />
+      <MemberSignature Language="VB.NET" Value="xdXmlXsn" />
+      <MemberSignature Language="C++ CLI" Value="xdXmlXsn" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath.SemiTrust</AssemblyName>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SemiTrust.XdAttachmentType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
