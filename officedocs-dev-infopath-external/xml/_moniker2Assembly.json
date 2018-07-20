@@ -1,0 +1,6 @@
+{
+  "infopath-external": [
+    "Microsoft.Office.Interop.InfoPath.SemiTrust",
+    "Microsoft.Office.Interop.InfoPath.Xml-exclude"
+  ]
+}
