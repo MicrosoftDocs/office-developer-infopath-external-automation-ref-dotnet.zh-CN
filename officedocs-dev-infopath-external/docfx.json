@@ -52,8 +52,9 @@
       "ms.prod": "infopath",
       "ms.technology": "sdk",
       "ms.tgt_pltfrm": "dotnet",
-      "apiPlatform": "dotnet",
-      "bilingual_type": "hover over"
+      "bilingual_type": "hover over",
+      "feedback_system": "None",
+      "hide_comments": true
     },
     "fileMetadata": {
       "author": {
