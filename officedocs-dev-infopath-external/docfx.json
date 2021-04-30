@@ -39,7 +39,6 @@
       ]
     },
     "globalMetadata": {
-      "apiPlatform": "dotnet",
       "breadcrumb_path": "~/breadcrumb/toc.yml",
       "ROBOTS": "INDEX,FOLLOW",
       "author": "o365devx",
@@ -52,6 +51,7 @@
       "ms.prod": "infopath",
       "ms.technology": "sdk",
       "ms.tgt_pltfrm": "dotnet",
+      "apiPlatform": "dotnet",
       "bilingual_type": "hover over",
       "feedback_system": "None",
       "hide_comments": true
