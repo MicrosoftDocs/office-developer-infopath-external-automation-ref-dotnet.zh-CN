@@ -39,7 +39,8 @@
         "SourceXmlFolder": "officedocs-dev-infopath-external/xml",
         "OutputYamlFolder": "officedocs-dev-infopath-external/api",
         "Flatten": true,
-        "id": "officedocs-dev-infopath-external"
+        "id": "officedocs-dev-infopath-external",
+        "SDPMode": "true"
       },
       "SplitTOC": [
         "officedocs-dev-infopath-external/api/officedocs-dev-infopath-external/toc.yml"
@@ -49,7 +50,10 @@
       ]
     }
   ],
-  "notification_subscribers": ["v-mipop@microsoft.com","v-jijaku@microsoft.com"],
+  "notification_subscribers": [
+    "v-mipop@microsoft.com",
+    "v-jijaku@microsoft.com"
+  ],
   "branches_to_filter": [
     "live-sxs",
     "master-sxs"
